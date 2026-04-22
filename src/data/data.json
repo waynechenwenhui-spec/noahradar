@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-21T07:00:00+08:00",
+    "lastUpdated": "2026-04-22T07:00:00+08:00",
     "version": "1.1.0",
     "sources": 18,
     "crawlStatus": "success"
@@ -8,175 +8,547 @@
   "briefings": [
     {
       "id": 1,
-      "title": "美联储3月议息纪要释放\"年内降息窗口收窄\"信号",
-      "summary": "会议纪要显示多位票委对通胀黏性表达担忧,10年期美债收益率单日跳升12bp",
-      "heat": 94,
-      "noahAngle": "从\"降息预期重定价\"切入,解读对美股、中概股、美元资产配置的连锁影响",
-      "format": "中视频",
+      "title": "美联储4月议息会议倒计时7天:Powell任期最后一次决策,新主席悬念升温",
+      "summary": "FOMC将于4月28-29日召开会议,目前利率维持在3.5%-3.75%。Powell任期5月15日到期,新主席选拔成市场最大不确定性。中东战争推高油价,为降息路径增添变数",
+      "heat": 96,
+      "noahAngle": "从'Powell时代谢幕'切入,讨论新主席格局对全球华人美元资产的5年影响——这不是一次议息会,而是货币政策范式切换",
+      "format": "中视频 5min",
       "column": "诺亚CIO观察"
     },
     {
       "id": 2,
-      "title": "香港财政预算案:高净值人群税务与家办政策全面松绑",
-      "summary": "家办税务宽免门槛下调至2.4亿港元、新增单一家办认证机制",
-      "heat": 88,
-      "noahAngle": "华人家办的\"香港选项\"正在重新变得有吸引力——结合新加坡对比",
-      "format": "Shorts",
-      "column": "一周世界"
+      "title": "巴菲特股东大会10天倒计时:Greg Abel首次以CEO身份主持,3733亿现金何去何从",
+      "summary": "5月2日Berkshire年会,巴菲特将退到台下当观众,Greg Abel首次主持完整问答。市场最关注:中东战争+AI泡沫+私募信贷裂缝下,巴菲特留下的3733亿美元现金会怎么部署",
+      "heat": 92,
+      "noahAngle": "'后巴菲特时代'家族办公室的传承启示——比起接班机制,Abel保留了什么、改变了什么,正是华人家族企业代际交接的镜子",
+      "format": "深度长片 10min",
+      "column": "诺亚对话"
     },
     {
       "id": 3,
-      "title": "巴菲特股东大会倒计时14天:接班人Greg Abel将首次独立主持Q&A",
-      "summary": "2026年伯克希尔年会首次由新任CEO主持主体问答环节",
-      "heat": 82,
-      "noahAngle": "\"后巴菲特时代\"的传承命题——切入家族办公室的代际交接议题",
-      "format": "深度长片",
-      "column": "诺亚对话"
+      "title": "WEXIT加速:UK净流出16500位百万富翁,香港家办税收新政正在抢人",
+      "summary": "英国废除non-dom税制后2025年净流出16500位百万富翁,涉及私人财富920亿美元。香港同步推出家办税收豁免范围扩大,涵盖加密、贵金属、私募信贷、海外房产",
+      "heat": 88,
+      "noahAngle": "海外华人正在重新洗牌:从英国搬出去之后,选香港、新加坡还是迪拜?三地综合对比正是诺亚最该回答的问题",
+      "format": "中视频 5min",
+      "column": "一周世界"
     }
   ],
   "news": {
     "macro": [
-      { "title": "美联储3月议息纪要:鹰派信号超预期", "source": "WSJ", "time": "2h ago", "heat": 94, "match": 5, "tag": "货币政策" },
-      { "title": "欧央行维持利率不变,下调欧元区增长预期", "source": "FT", "time": "4h ago", "heat": 72, "match": 3, "tag": "货币政策" },
-      { "title": "日本核心CPI连续22个月超2%,加息预期升温", "source": "Bloomberg", "time": "6h ago", "heat": 68, "match": 4, "tag": "通胀" },
-      { "title": "中东地缘冲突升级,布伦特油价突破92美元", "source": "Reuters", "time": "8h ago", "heat": 85, "match": 4, "tag": "地缘政治" },
-      { "title": "OECD将全球2026年GDP增速预测下调至2.9%", "source": "OECD", "time": "12h ago", "heat": 58, "match": 3, "tag": "宏观预测" }
+      {
+        "title": "美联储4月28-29日议息会议:市场预期按兵不动,关注Powell退任前最后一次表态",
+        "source": "Reuters",
+        "time": "今日 06:30",
+        "heat": 96,
+        "match": 5,
+        "tag": "货币政策 · 必做"
+      },
+      {
+        "title": "Powell任期5月15日到期,新主席人选成为2026年最大政策变量",
+        "source": "Bloomberg",
+        "time": "昨日 22:15",
+        "heat": 92,
+        "match": 5,
+        "tag": "美联储换届"
+      },
+      {
+        "title": "高盛:中东战争推升衰退概率至30%,2026年底失业率或升至4.6%",
+        "source": "Goldman Sachs",
+        "time": "昨日 18:40",
+        "heat": 84,
+        "match": 4,
+        "tag": "宏观预测"
+      },
+      {
+        "title": "OECD下调2026全球GDP预测至2.9%,亚洲新兴市场承压",
+        "source": "OECD",
+        "time": "昨日 14:20",
+        "heat": 65,
+        "match": 3,
+        "tag": "宏观预测"
+      },
+      {
+        "title": "美国通胀预期重燃,3月CPI受能源价格推动创近4年最大涨幅",
+        "source": "WSJ",
+        "time": "昨日 09:30",
+        "heat": 78,
+        "match": 4,
+        "tag": "通胀"
+      }
     ],
     "market": [
-      { "title": "英伟达市值单日蒸发3400亿美元,AI交易退潮?", "source": "CNBC", "time": "3h ago", "heat": 96, "match": 5, "tag": "AI / 美股" },
-      { "title": "私募信贷市场规模突破1.8万亿美元,创历史新高", "source": "Preqin", "time": "5h ago", "heat": 78, "match": 5, "tag": "另类投资 · 诺亚核心" },
-      { "title": "黑石一级市场基金募资超预期20%", "source": "Bloomberg", "time": "7h ago", "heat": 74, "match": 5, "tag": "一级市场 · 诺亚核心" },
-      { "title": "比特币突破11万美元,ETF资金单周净流入23亿", "source": "CoinDesk", "time": "9h ago", "heat": 81, "match": 3, "tag": "加密" },
-      { "title": "黄金创历史新高至2680美元,央行购金潮延续", "source": "Reuters", "time": "11h ago", "heat": 76, "match": 4, "tag": "大宗商品" }
+      {
+        "title": "私募信贷出现2008年以来最大压力,黑石、阿波罗等巨头redemption gating频发",
+        "source": "CNBC",
+        "time": "今日 02:14",
+        "heat": 95,
+        "match": 5,
+        "tag": "另类投资 · 诺亚核心"
+      },
+      {
+        "title": "JPM Dimon警告:私募信贷虽非系统性风险,但下行周期来临时损失或'更陡峭'",
+        "source": "JPMorgan",
+        "time": "昨日 23:00",
+        "heat": 82,
+        "match": 5,
+        "tag": "另类投资 · 诺亚核心"
+      },
+      {
+        "title": "黄金回调至4795美元/oz,中东战火重燃后避险与通胀预期博弈",
+        "source": "Reuters",
+        "time": "今日 04:30",
+        "heat": 80,
+        "match": 4,
+        "tag": "大宗商品"
+      },
+      {
+        "title": "Brent原油触及104美元/桶,Hormuz海峡封锁再度升级",
+        "source": "Bloomberg",
+        "time": "昨日 21:45",
+        "heat": 88,
+        "match": 4,
+        "tag": "地缘政治 · 能源"
+      },
+      {
+        "title": "英伟达Q1财报展望未驱散AI泡沫担忧,股价单日跌5.5%创10个月最大跌幅",
+        "source": "Bloomberg",
+        "time": "昨日 16:20",
+        "heat": 90,
+        "match": 5,
+        "tag": "AI · 美股"
+      },
+      {
+        "title": "PE买断活动Q1同比下滑14%,私募信贷裂缝拖累私募股权估值",
+        "source": "Mergermarket",
+        "time": "2天前",
+        "heat": 76,
+        "match": 5,
+        "tag": "一级市场 · 诺亚核心"
+      },
+      {
+        "title": "Morgan Stanley估算:2025-2028全球数据中心投入3万亿美元,一半由私募信贷承担",
+        "source": "Morgan Stanley",
+        "time": "2天前",
+        "heat": 81,
+        "match": 5,
+        "tag": "AI · 私募信贷"
+      }
     ],
     "chinese": [
-      { "title": "香港家办税务宽免门槛调降至2.4亿港元", "source": "HKSAR", "time": "1h ago", "heat": 92, "match": 5, "tag": "家办 · 税务" },
-      { "title": "美国2026年遗产税起征点维持1361万美元", "source": "IRS", "time": "6h ago", "heat": 79, "match": 5, "tag": "传承 · 税务" },
-      { "title": "新加坡GIP计划重启:投资移民门槛上调至1000万新币", "source": "MAS", "time": "10h ago", "heat": 83, "match": 5, "tag": "移民 · 身份规划" },
-      { "title": "加拿大资本利得税改革落地,华人群体资产结构承压", "source": "CBC", "time": "14h ago", "heat": 71, "match": 4, "tag": "税务 · 华人" },
-      { "title": "英国取消non-dom税制,超高净值华人或加速撤离", "source": "FT", "time": "16h ago", "heat": 86, "match": 5, "tag": "身份规划" },
-      { "title": "美国留学F1签证新规:高净值家庭资金证明要求收紧", "source": "USCIS", "time": "18h ago", "heat": 65, "match": 4, "tag": "教育留学" }
+      {
+        "title": "香港家办税收豁免范围正式扩容:加密资产、贵金属、私募信贷、海外房产全部纳入",
+        "source": "HKSAR FSTB",
+        "time": "今日 08:30",
+        "heat": 94,
+        "match": 5,
+        "tag": "家办 · 税务 · 必做"
+      },
+      {
+        "title": "英国WEXIT加速:2025年净流出16500位百万富翁,920亿美元财富外迁",
+        "source": "Henley & Partners",
+        "time": "昨日 19:00",
+        "heat": 90,
+        "match": 5,
+        "tag": "身份规划 · 必做"
+      },
+      {
+        "title": "中东战火让富裕亚洲人重新评估迪拜:咨询从迪拜搬到新加坡的需求激增",
+        "source": "Reuters",
+        "time": "昨日 15:30",
+        "heat": 86,
+        "match": 5,
+        "tag": "移民 · 跨境配置"
+      },
+      {
+        "title": "新加坡PR审批继续收紧,中国背景申请人通过率明显下降",
+        "source": "Straits Times",
+        "time": "昨日 11:20",
+        "heat": 78,
+        "match": 4,
+        "tag": "移民 · 身份规划"
+      },
+      {
+        "title": "DIFC家族办公室突破1000家,中国高净值家庭成主要新增来源",
+        "source": "DIFC",
+        "time": "2天前",
+        "heat": 72,
+        "match": 5,
+        "tag": "家办 · 海外华人"
+      },
+      {
+        "title": "香港单一家办数量突破3384家,两年增长25%,Wealth for Good峰会持续吸引全球家族",
+        "source": "InvestHK",
+        "time": "3天前",
+        "heat": 70,
+        "match": 5,
+        "tag": "家办 · 香港"
+      }
     ]
   },
   "calendar": [
-    { "date": "4月24日", "daysAway": 3, "type": "market", "title": "特斯拉Q1财报", "desc": "Musk首次财报电话会谈人形机器人进展", "noah": true, "layer": "财经大事件", "angles": 3 },
-    { "date": "4月30日", "daysAway": 9, "type": "market", "title": "FOMC议息会议", "desc": "市场预期按兵不动,关注点阵图", "noah": true, "layer": "财经大事件", "angles": 4 },
-    { "date": "5月1日", "daysAway": 10, "type": "brand", "title": "国际劳动节", "desc": "全球华人工作者议题切入点", "noah": true, "layer": "品牌日历", "angles": 2 },
-    { "date": "5月3日", "daysAway": 12, "type": "market", "title": "巴菲特股东大会", "desc": "2026年Greg Abel首次主持", "noah": true, "layer": "财经大事件 · 必做", "angles": 5 },
-    { "date": "5月10日", "daysAway": 19, "type": "noah", "title": "母亲节", "desc": "财富与家庭传承话题黄金窗口", "noah": true, "layer": "品牌日历", "angles": 3 },
-    { "date": "5月22日", "daysAway": 31, "type": "market", "title": "英伟达财报", "desc": "AI算力需求验证关键节点", "noah": true, "layer": "财经大事件", "angles": 3 },
-    { "date": "6月1日", "daysAway": 41, "type": "brand", "title": "儿童节 + 高考季启动", "desc": "教育与代际传承议题", "noah": false, "layer": "品牌日历", "angles": 2 },
-    { "date": "6月12日", "daysAway": 52, "type": "market", "title": "FOMC议息会议 + 点阵图", "desc": "年内第二次点阵图发布", "noah": true, "layer": "财经大事件", "angles": 4 },
-    { "date": "6月19日", "daysAway": 59, "type": "brand", "title": "父亲节", "desc": "家族办公室 / 代际传承选题", "noah": true, "layer": "品牌日历", "angles": 3 },
-    { "date": "6月30日", "daysAway": 70, "type": "noah", "title": "年中策略展望", "desc": "诺亚历史爆款时点 - H2资产配置", "noah": true, "layer": "诺亚选题时点", "angles": 5 },
-    { "date": "7月10日", "daysAway": 80, "type": "market", "title": "Q2财报季启动", "desc": "七巨头陆续发布财报", "noah": true, "layer": "财经大事件", "angles": 3 },
-    { "date": "7月19日", "daysAway": 89, "type": "market", "title": "FOMC议息会议", "desc": "市场关注首次降息可能性", "noah": true, "layer": "财经大事件", "angles": 4 }
+    {
+      "date": "4月28日",
+      "daysAway": 6,
+      "type": "market",
+      "title": "FOMC议息会议(Day 1)",
+      "desc": "Powell任期内最后一次议息,市场预期按兵不动",
+      "noah": true,
+      "layer": "财经大事件 · 必做",
+      "angles": 5
+    },
+    {
+      "date": "4月29日",
+      "daysAway": 7,
+      "type": "market",
+      "title": "美联储利率决议+Powell记者会",
+      "desc": "美东时间下午2点决议,2:30记者会,关注新主席相关表态",
+      "noah": true,
+      "layer": "财经大事件 · 必做",
+      "angles": 5
+    },
+    {
+      "date": "5月1日",
+      "daysAway": 9,
+      "type": "brand",
+      "title": "国际劳动节",
+      "desc": "全球华人工作者议题切入点,新经济与AI冲击下的就业反思",
+      "noah": true,
+      "layer": "品牌日历",
+      "angles": 3
+    },
+    {
+      "date": "5月2日",
+      "daysAway": 10,
+      "type": "market",
+      "title": "Berkshire 2026年会 · Greg Abel首次主持",
+      "desc": "巴菲特退到台下,Abel首次以CEO身份主持完整Q&A,3733亿现金何去何从",
+      "noah": true,
+      "layer": "财经大事件 · 必做",
+      "angles": 5
+    },
+    {
+      "date": "5月10日",
+      "daysAway": 18,
+      "type": "noah",
+      "title": "母亲节",
+      "desc": "财富与家庭传承话题黄金窗口,海外华人母亲视角",
+      "noah": true,
+      "layer": "品牌日历",
+      "angles": 3
+    },
+    {
+      "date": "5月15日",
+      "daysAway": 23,
+      "type": "market",
+      "title": "Powell任期正式结束",
+      "desc": "新美联储主席继任,货币政策范式或现转折",
+      "noah": true,
+      "layer": "财经大事件 · 历史性",
+      "angles": 4
+    },
+    {
+      "date": "5月22日",
+      "daysAway": 30,
+      "type": "market",
+      "title": "英伟达Q1财报",
+      "desc": "AI算力需求验证关键节点,泡沫论争或迎决定性数据",
+      "noah": true,
+      "layer": "财经大事件",
+      "angles": 4
+    },
+    {
+      "date": "6月1日",
+      "daysAway": 40,
+      "type": "brand",
+      "title": "儿童节 + 高考季启动",
+      "desc": "教育与代际传承议题,海外华人子女教育规划",
+      "noah": true,
+      "layer": "品牌日历",
+      "angles": 3
+    },
+    {
+      "date": "6月12日",
+      "daysAway": 51,
+      "type": "market",
+      "title": "FOMC议息会议 + 点阵图发布",
+      "desc": "新主席首次主持FOMC,2026剩余路径首次明确",
+      "noah": true,
+      "layer": "财经大事件 · 必做",
+      "angles": 5
+    },
+    {
+      "date": "6月19日",
+      "daysAway": 58,
+      "type": "brand",
+      "title": "父亲节",
+      "desc": "家族办公室与代际传承黄金窗口",
+      "noah": true,
+      "layer": "品牌日历",
+      "angles": 3
+    },
+    {
+      "date": "6月30日",
+      "daysAway": 69,
+      "type": "noah",
+      "title": "诺亚H2策略展望(诺亚历史爆款时点)",
+      "desc": "下半年资产配置框架,诺亚CIO季度观点",
+      "noah": true,
+      "layer": "诺亚选题时点",
+      "angles": 5
+    },
+    {
+      "date": "7月10日",
+      "daysAway": 79,
+      "type": "market",
+      "title": "Q2财报季启动",
+      "desc": "Mag7陆续发布Q2财报,AI叙事面临中期检验",
+      "noah": true,
+      "layer": "财经大事件",
+      "angles": 3
+    }
   ],
   "topics": [
     {
       "id": 1,
-      "title": "当\"降息窗口\"越来越窄:全球华人该如何重置美元资产?",
+      "title": "美联储4月议息倒计时:Powell退场前的最后一战,华人美元资产怎么办?",
       "plate": "market",
       "column": "诺亚CIO观察",
       "function": "trust",
-      "format": "中视频 3-5min",
+      "format": "中视频 5min",
       "priority": "高频核心",
-      "hook": "美联储3月纪要让市场一夜之间改口——今年到底还降不降息?这件事对你账上的美元资产意味着什么?",
-      "selfCheck": { "plate": true, "function": true, "form": true, "noah": true }
+      "hook": "下周三,Powell将主持他任内最后一次议息会议——这不只是一次利率决策,更是一个货币政策时代的落幕。你账上的美元资产,需要做哪些重新评估?",
+      "selfCheck": {
+        "plate": true,
+        "function": true,
+        "form": true,
+        "noah": true
+      }
     },
     {
       "id": 2,
-      "title": "香港、新加坡、迪拜:2026 全球家办政策谁最香?",
+      "title": "巴菲特退到台下:Greg Abel的5月2日,会让3733亿美元有什么新去处?",
+      "plate": "dialogue",
+      "column": "诺亚对话",
+      "function": "trust",
+      "format": "深度长片 10min",
+      "priority": "中频支柱",
+      "hook": "5月2日,Greg Abel第一次以CEO身份坐上那个主席台——而巴菲特会坐在观众席。3733亿现金、AI泡沫、中东战火、私募信贷裂缝——他的第一份答卷会怎么写?",
+      "selfCheck": {
+        "plate": true,
+        "function": true,
+        "form": true,
+        "noah": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "私募信贷的'裂缝时刻':2008年以来最大压力来临,诺亚客户该担心吗?",
+      "plate": "market",
+      "column": "诺亚CIO观察",
+      "function": "trust",
+      "format": "中视频 5min",
+      "priority": "高频核心",
+      "hook": "黑石冻结赎回、PE买断活动暴跌14%、Dimon警告损失或'更陡峭'——私募信贷市场进入了2008年以来最严峻的考验时刻。这是危机还是机会?",
+      "selfCheck": {
+        "plate": true,
+        "function": true,
+        "form": true,
+        "noah": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "WEXIT加速:为什么1000多个英国百万富翁,在过去12个月搬到了迪拜?",
+      "plate": "connect",
+      "column": "与世界同行",
+      "function": "warmth",
+      "format": "深度长片 10min",
+      "priority": "低频精品",
+      "hook": "去年一年,大约1000个百万富翁离开英国去了迪拜。背后是Lakshmi Mittal这样的华人面孔,也是无数普通海外华人家庭的重新选择。",
+      "selfCheck": {
+        "plate": true,
+        "function": true,
+        "form": true,
+        "noah": true
+      }
+    },
+    {
+      "id": 5,
+      "title": "香港家办税收又升级:加密、黄金、私募信贷全免税——华人家族办公室的'香港时刻'?",
       "plate": "market",
       "column": "一周世界",
       "function": "acquire",
       "format": "Shorts 30s",
       "priority": "高频核心",
-      "hook": "香港上周官宣家办门槛直降——华人家族办公室的\"三选一\"要重新排序了。",
-      "selfCheck": { "plate": true, "function": true, "form": true, "noah": true }
-    },
-    {
-      "id": 3,
-      "title": "巴菲特的\"接班人时刻\":Greg Abel 要证明什么?",
-      "plate": "dialogue",
-      "column": "人物与判断",
-      "function": "trust",
-      "format": "中视频 5-8min",
-      "priority": "中频支柱",
-      "hook": "5月3日,Greg Abel 第一次以CEO身份坐上那个位置——这是全世界家族企业都要上的一堂传承课。",
-      "selfCheck": { "plate": true, "function": true, "form": true, "noah": true }
-    },
-    {
-      "id": 4,
-      "title": "从伦敦搬到迪拜:一个英国华人家庭的3个月",
-      "plate": "connect",
-      "column": "与世界同行",
-      "function": "warmth",
-      "format": "深度长片 8-12min",
-      "priority": "低频精品",
-      "hook": "英国取消 non-dom 的那天,他们决定离开住了15年的伦敦。这不是逃离,是一次重新选择。",
-      "selfCheck": { "plate": true, "function": true, "form": true, "noah": true }
-    },
-    {
-      "id": 5,
-      "title": "一级市场2026开局:谁在逆势加码?",
-      "plate": "market",
-      "column": "诺亚CIO观察",
-      "function": "trust",
-      "format": "中视频 3-5min",
-      "priority": "高频核心",
-      "hook": "黑石最新一只基金超募20%,而二级市场的AI交易正在退潮——聪明钱今年在做什么?",
-      "selfCheck": { "plate": true, "function": true, "form": true, "noah": true }
+      "hook": "今天香港宣布家办税收豁免范围再扩大——加密资产、贵金属、私募信贷、海外房产全部纳入。这意味着什么?华人家办的'香港选项'正在变得空前有吸引力。",
+      "selfCheck": {
+        "plate": true,
+        "function": true,
+        "form": true,
+        "noah": true
+      }
     },
     {
       "id": 6,
-      "title": "AI取代的不是工作,是\"中等收入者的安全感\"",
+      "title": "Hormuz海峡再封锁:油价104美元背后,聪明钱在调整什么资产?",
       "plate": "market",
       "column": "Noya来了",
       "function": "acquire",
       "format": "Shorts 30s",
       "priority": "高频核心",
-      "hook": "英伟达一天蒸发3400亿,很多人以为这只是股价的事——真正的问题在更深的地方。",
-      "selfCheck": { "plate": true, "function": true, "form": true, "noah": true }
+      "hook": "美国扣押伊朗船只,Hormuz海峡封锁升级——油价飙升、黄金回调、美元走强。这背后聪明钱正在如何重新摆放?",
+      "selfCheck": {
+        "plate": true,
+        "function": true,
+        "form": true,
+        "noah": true
+      }
     },
     {
       "id": 7,
-      "title": "母亲节特辑:三位海外华人母亲的财富传承观",
+      "title": "母亲节特辑:三位海外华人母亲的财富传承观——纽约、新加坡、温哥华",
       "plate": "beyond",
       "column": "世界与家",
       "function": "warmth",
       "format": "深度长片 8min",
       "priority": "低频精品",
-      "hook": "她们一个在纽约、一个在新加坡、一个在温哥华——但都在想同一件事:我们这代留下什么给孩子。",
-      "selfCheck": { "plate": true, "function": true, "form": true, "noah": true }
+      "hook": "她们一个在纽约、一个在新加坡、一个在温哥华——但都在想同一件事:我们这代留下什么给孩子。比起房子和钱,她们更在意什么?",
+      "selfCheck": {
+        "plate": true,
+        "function": true,
+        "form": true,
+        "noah": true
+      }
     },
     {
       "id": 8,
-      "title": "一首《橄榄树》为什么在海外华人里唱了50年?",
-      "plate": "beyond",
-      "column": "听见世界",
-      "function": "warmth",
+      "title": "AI泡沫真要破吗?当NVIDIA单日跌5.5%,真正的风险藏在私募信贷里",
+      "plate": "market",
+      "column": "诺亚CIO观察",
+      "function": "trust",
       "format": "中视频 5min",
-      "priority": "低频精品",
-      "hook": "三毛写这首词的时候在西班牙——50年后,它还在每个海外华人的KTV里被点唱。",
-      "selfCheck": { "plate": true, "function": true, "form": true, "noah": true }
+      "priority": "高频核心",
+      "hook": "全球数据中心投资3万亿美元,一半钱来自私募信贷。当NVIDIA开始打喷嚏,真正的连锁反应不在二级市场,而在你看不见的另类资产里——Powell和Dimon都在发警告。",
+      "selfCheck": {
+        "plate": true,
+        "function": true,
+        "form": true,
+        "noah": true
+      }
     }
   ],
   "competitors": [
-    { "account": "UBS", "title": "Year Ahead 2026: The next phase of the AI story", "time": "昨日 18:30", "views": "42K", "rate": "4.8%", "viral": true, "aiSummary": "UBS首席投资官解读2026 AI投资主线,重点推荐算力基础设施+应用层双轮驱动", "overlap": "部分重合 - 诺亚CIO观察4月曾覆盖", "platform": "YouTube", "duration": "8:32", "group": "B" },
-    { "account": "J.P. Morgan Private Bank", "title": "Family Office Insights: Next-gen wealth transfer", "time": "昨日 14:12", "views": "18K", "rate": "6.2%", "viral": true, "aiSummary": "聚焦Z世代继承人议题,数据显示未来10年84万亿美元代际转移,与诺亚传承选题高度相关", "overlap": "未覆盖 - 建议跟进", "platform": "YouTube", "duration": "12:15", "group": "B" },
-    { "account": "Arta Finance", "title": "美国华人如何配置Private Credit?3个真实案例", "time": "昨日 10:00", "views": "8.4K", "rate": "7.8%", "viral": true, "aiSummary": "华人视角讲私募信贷入门,案例化表达非常接近诺亚CIO观察风格,警惕该账号正在侵占相似心智", "overlap": "直接竞品 - 优先级高", "platform": "YouTube", "duration": "6:48", "group": "A" },
-    { "account": "HSBC", "title": "Wealth in Motion: Navigating global asset allocation", "time": "昨日 09:30", "views": "31K", "rate": "3.2%", "viral": false, "aiSummary": "HSBC年度财富报告发布,重点覆盖亚洲高净值客户跨境资产配置趋势", "overlap": "未覆盖", "platform": "YouTube", "duration": "5:20", "group": "B" },
-    { "account": "Goldman Sachs", "title": "Exchanges: The future of alternative investments", "time": "2天前", "views": "56K", "rate": "5.1%", "viral": true, "aiSummary": "高盛另类投资负责人Q&A,私募+对冲+实物资产三位一体配置框架", "overlap": "可对标 - 建议推出诺亚版", "platform": "YouTube", "duration": "28:44", "group": "B" },
-    { "account": "DBS Bank", "title": "新加坡家办新政5大关键点", "time": "2天前", "views": "12K", "rate": "5.8%", "viral": false, "aiSummary": "DBS私人银行视角解读新加坡家办政策调整,重点是13U/13O税务豁免", "overlap": "未覆盖 - 与香港家办形成对比选题空间", "platform": "YouTube", "duration": "4:30", "group": "B" },
-    { "account": "富途海外 Futu", "title": "美股科技七巨头Q1财报全解析", "time": "3天前", "views": "24K", "rate": "4.5%", "viral": false, "aiSummary": "零售券商视角的财报快评,偏操作层面,与诺亚CIO观察的配置视角形成差异", "overlap": "不同定位", "platform": "YouTube", "duration": "15:20", "group": "A" },
-    { "account": "Morgan Stanley", "title": "Thoughts on the Market: Rate cut scenarios", "time": "3天前", "views": "38K", "rate": "4.1%", "viral": false, "aiSummary": "摩根士丹利首席美国经济学家分析美联储降息路径三种情景", "overlap": "已覆盖 - 诺亚CIO观察4月初覆盖", "platform": "YouTube", "duration": "7:15", "group": "B" }
+    {
+      "account": "UBS",
+      "title": "Year Ahead Update: Navigating the Iran shock and Fed transition",
+      "time": "昨日 19:30",
+      "views": "48K",
+      "rate": "5.1%",
+      "viral": true,
+      "aiSummary": "UBS首席投资官最新视角:中东战争+Powell退任两大不确定性下的资产配置框架,重点推荐黄金、美元现金等价物、欧洲股票",
+      "overlap": "未覆盖 - 优先建议跟进",
+      "platform": "YouTube",
+      "duration": "9:15",
+      "group": "B"
+    },
+    {
+      "account": "J.P. Morgan Private Bank",
+      "title": "Family Office Insights: Navigating private credit in a stressed market",
+      "time": "昨日 16:00",
+      "views": "22K",
+      "rate": "6.8%",
+      "viral": true,
+      "aiSummary": "JPM私行解读私募信贷压力下家办的应对策略,与诺亚核心客户群体高度吻合,警惕该账号正在抢占信任心智",
+      "overlap": "未覆盖 - 优先级极高",
+      "platform": "YouTube",
+      "duration": "11:40",
+      "group": "B"
+    },
+    {
+      "account": "Arta Finance",
+      "title": "美国华人如何在中东危机中保护跨境资产?",
+      "time": "昨日 12:30",
+      "views": "11K",
+      "rate": "8.2%",
+      "viral": true,
+      "aiSummary": "华人视角解读中东危机对美元资产的影响,案例化表达直接对标诺亚CIO观察风格,高互动率说明华人受众强烈需求",
+      "overlap": "直接竞品 - 必须立即回应",
+      "platform": "YouTube",
+      "duration": "7:20",
+      "group": "A"
+    },
+    {
+      "account": "HSBC",
+      "title": "Wealth Insights: Asia HNW response to Middle East volatility",
+      "time": "昨日 10:15",
+      "views": "34K",
+      "rate": "3.6%",
+      "viral": false,
+      "aiSummary": "HSBC亚洲财富报告,聚焦中东危机下亚洲高净值客户跨境配置变化",
+      "overlap": "未覆盖 - 与诺亚视角形成对比可参考",
+      "platform": "YouTube",
+      "duration": "6:30",
+      "group": "B"
+    },
+    {
+      "account": "Goldman Sachs",
+      "title": "Exchanges: Greg Abel's first 100 days at Berkshire",
+      "time": "2天前",
+      "views": "62K",
+      "rate": "5.4%",
+      "viral": true,
+      "aiSummary": "高盛深度访谈Berkshire接班议题,从公司治理角度看代际交接,与诺亚家办传承选题高度互补",
+      "overlap": "可对标 - 建议出诺亚版",
+      "platform": "YouTube",
+      "duration": "32:10",
+      "group": "B"
+    },
+    {
+      "account": "DBS Bank",
+      "title": "新加坡 vs 香港:2026家办新政全面对比",
+      "time": "2天前",
+      "views": "16K",
+      "rate": "6.1%",
+      "viral": false,
+      "aiSummary": "DBS私行视角对比新港两地家办政策,DBS自然站在新加坡角度,缺少跨境华人客户的中立视角——诺亚有切入空间",
+      "overlap": "未覆盖 - 差异化机会",
+      "platform": "YouTube",
+      "duration": "5:45",
+      "group": "B"
+    },
+    {
+      "account": "富途海外 Futu",
+      "title": "美联储议息预测:这次会变盘吗?",
+      "time": "3天前",
+      "views": "28K",
+      "rate": "4.2%",
+      "viral": false,
+      "aiSummary": "零售券商视角的议息预测,偏交易操作层面,与诺亚配置视角形成清晰差异",
+      "overlap": "不同定位 - 不冲突",
+      "platform": "YouTube",
+      "duration": "12:15",
+      "group": "A"
+    },
+    {
+      "account": "Morgan Stanley",
+      "title": "Thoughts on the Market: Private credit's true stress test",
+      "time": "3天前",
+      "views": "42K",
+      "rate": "4.5%",
+      "viral": false,
+      "aiSummary": "摩根士丹利首席策略师分析私募信贷压力的真实程度,内容深度高,但缺乏华人投资者视角",
+      "overlap": "已覆盖 - 诺亚CIO观察上周已发",
+      "platform": "YouTube",
+      "duration": "8:30",
+      "group": "B"
+    }
   ],
   "weeklyInsight": {
-    "competitorTotal": 47,
-    "noahTotal": 12,
-    "topTopic": "美联储降息路径(8条)",
+    "competitorTotal": 52,
+    "noahTotal": 14,
+    "topTopic": "私募信贷压力(11条)",
     "topTopicCoverage": true,
-    "missedTopic": "代际财富转移 · Next-Gen传承(5条,诺亚0条)"
+    "missedTopic": "Powell退任与新主席格局(7条,诺亚0条) + 后巴菲特时代(6条,诺亚0条)"
   }
 }
