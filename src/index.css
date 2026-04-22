@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "PingFang SC", "Noto Serif SC", "Source Han Serif", serif;
+  background: #F7F3EA;
+}
+
+/* Toast 动画 */
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.toast-enter {
+  animation: slideIn 0.3s ease-out;
+}
