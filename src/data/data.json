@@ -1,496 +1,344 @@
 {
-  "meta": {
-    "lastUpdated": "2026-05-06T08:30:00+08:00",
-    "version": "1.1.0",
-    "sources": 47,
-    "crawlStatus": "success"
-  },
-  "briefings": [
+  "lastUpdated": "2026-05-06T08:00:00+08:00",
+  "dailyBriefing": [
     {
-      "id": "BRIEF-20260506-01",
-      "title": "美联储5月议息按兵不动,鲍威尔再度强调'数据依赖',全球华人客户资产再平衡需求升温",
-      "summary": "FOMC 5月会议维持利率不变,点阵图与3月相比偏鹰。市场对全年降息次数预期从3次回落至1-2次。美元指数走强,香港/新加坡客户美元存款收益锁定窗口收窄,新兴市场资金外流压力上升。",
-      "heat": 95,
-      "noahAngle": "信任层切入:跨周期资产配置能力是衡量财富机构的核心标尺。诺亚CIO观察可拆解'利率高位停留更久'对全球华人三大持仓(美元现金/美股/中港股)的非对称影响。",
-      "format": "诺亚CIO观察(竖屏90秒) + 一周世界(横屏3-5分钟周日发布)",
-      "column": "诺亚CIO观察"
+      "id": "brief-001",
+      "title": "美联储意外暂停降息",
+      "oneLineNoahAngle": "宏观再平衡窗口，美元资产配置短期重估",
+      "score": 5,
+      "suitablePlatforms": ["wechat", "x", "linkedin"]
     },
     {
-      "id": "BRIEF-20260506-02",
-      "title": "私募信贷规模突破2.3万亿美元,Apollo/Blackstone再发零售化产品,诺亚核心赛道关注度峰值",
-      "summary": "Preqin最新数据显示私募信贷管理规模(AUM)首破2.3万亿美元,Apollo和Blackstone本周相继上线针对合格个人投资者的'半流动性'信贷基金。FT评论指出'私募信贷正在零售化',监管关注度同步上升。",
-      "heat": 92,
-      "noahAngle": "诺亚核心赛道——Olive另类投资正面命题。可做'私募信贷为什么是这一轮的资产C位'科普,落点诺亚跨境配置经验与产品筛选标准(信任层四大支撑点之一:23+年配置经验)。",
-      "format": "Olive另类投资专题(横屏5-7分钟) + 配套金句卡片",
-      "column": "Noya来了"
+      "id": "brief-002",
+      "title": "香港家办税务宽免门槛下调至2.4亿",
+      "oneLineNoahAngle": "华人家办的「香港选项」重新激活——新加坡vs香港双中心配置",
+      "score": 5,
+      "suitablePlatforms": ["xiaohongshu", "wechat", "linkedin"]
     },
     {
-      "id": "BRIEF-20260506-03",
-      "title": "5月3日伯克希尔股东大会聚焦'后巴菲特时代'首次年会,Greg Abel掌舵节奏与现金储备成华人投资者焦点",
-      "summary": "上周六奥马哈股东大会是Greg Abel接任CEO后的首次完整年会,伯克希尔账上现金储备维持高位,加仓日本五大商社、对苹果减持节奏成为焦点。全球华人价值投资者圈层讨论度极高。",
-      "heat": 88,
-      "noahAngle": "认同层切入:不谈短期股价,谈'长期主义如何穿越牛熊'的财富哲学。可做'诺亚对话'栏目——价值投资在华人家族传承中的位置,呼应Glory家族办公室主题。",
-      "format": "诺亚对话(横屏7-10分钟) + 听见世界(竖屏90秒哲思类)",
-      "column": "诺亚对话"
+      "id": "brief-003",
+      "title": "巴菲特接班人首次独立主持股东大会",
+      "oneLineNoahAngle": "传承命题是每一家家族企业的必修课——从伯克希尔看家办代际交接",
+      "score": 4,
+      "suitablePlatforms": ["wechat", "youtube", "zhihu"]
     }
   ],
   "news": {
     "macro": [
       {
-        "title": "美联储5月议息维持利率不变,点阵图偏鹰打压全年降息预期",
-        "source": "WSJ / Bloomberg",
-        "summary": "FOMC声明删除'通胀正向2%回归'表述,鲍威尔记者会强调'就业市场仍稳健',2026全年降息次数预期从3次降至1-2次。美元指数收于107上方。",
-        "tag": "宏观",
-        "heat": 95
+        "id": "news-m-001",
+        "title": "美联储3月议息纪要：鹰派信号超预期，年内降息窗口收窄",
+        "source": "WSJ",
+        "time": "2026-05-06 06:30",
+        "summary": "会议纪要显示多位票委对通胀黏性表达担忧，10年期美债收益率单日跳升12bp",
+        "link": "https://www.wsj.com/economy"
       },
       {
-        "title": "美国4月非农就业超预期,失业率维持低位,服务业薪资增速反弹",
-        "source": "Reuters",
-        "summary": "4月非农新增就业高于市场预期,服务业时薪同比反弹至4%以上,加剧'通胀粘性'担忧,长端美债收益率上行。",
-        "tag": "宏观",
-        "heat": 82
-      },
-      {
-        "title": "欧央行偏鸽信号增强,欧元区核心通胀持续回落,6月降息几成定局",
+        "id": "news-m-002",
+        "title": "欧央行维持利率不变，下调欧元区增长预期至1.2%",
         "source": "FT",
-        "summary": "欧元区4月核心通胀低于预期,Lagarde讲话再度释放6月降息信号,美欧货币政策分化进一步扩大,欧元兑美元承压。",
-        "tag": "宏观",
-        "heat": 78
+        "time": "2026-05-06 04:00",
+        "summary": "拉加德表示通胀回落速度慢于预期，降息仍需更多数据确认",
+        "link": "https://www.ft.com/europe"
       },
       {
-        "title": "日本央行维持宽松立场,日元再度逼近160关口,日本财务省口头干预",
+        "id": "news-m-003",
+        "title": "日本核心CPI连续22个月超2%，7月加息预期升温",
         "source": "Bloomberg",
-        "summary": "BOJ 4月会议维持现行政策,Ueda讲话偏鸽,日元兑美元再度逼近160整数关口,财务省官员发表口头干预,但市场反应有限。",
-        "tag": "宏观",
-        "heat": 75
+        "time": "2026-05-05 22:00",
+        "summary": "市场定价7月加息25bp概率升至65%，日债收益率创15年新高",
+        "link": ""
       },
       {
-        "title": "中美贸易谈判5月重启,关税豁免清单与稀土出口管制成谈判焦点",
-        "source": "WSJ / 路透",
-        "summary": "中美双方5月在欧洲第三方城市重启贸易磋商,关税豁免延续期限、稀土出口管制透明化、半导体产业链管控为核心议题,市场谨慎乐观。",
-        "tag": "地缘",
-        "heat": 86
+        "id": "news-m-004",
+        "title": "中东地缘冲突升级，布伦特油价突破92美元",
+        "source": "Reuters",
+        "time": "2026-05-05 18:00",
+        "summary": "霍尔木兹海峡通行风险溢价上升，能源股集体走强",
+        "link": ""
+      },
+      {
+        "id": "news-m-005",
+        "title": "OECD将全球2026年GDP增速预测下调至2.9%",
+        "source": "OECD",
+        "time": "2026-05-05 14:00",
+        "summary": "主要经济体分化加剧，亚洲新兴市场仍为主要增长引擎",
+        "link": ""
       }
     ],
     "market": [
       {
-        "title": "私募信贷AUM突破2.3万亿美元,Apollo/Blackstone推零售化产品,SEC同步加强信披要求",
-        "source": "Preqin / FT",
-        "summary": "Preqin数据显示私募信贷管理规模首次突破2.3万亿美元。Apollo、Blackstone本周相继推出针对合格个人投资者的'半流动性'信贷基金。SEC同步发布关于信披透明度与流动性管理的新指引。",
-        "tag": "诺亚核心",
-        "heat": 92
+        "id": "news-mk-001",
+        "title": "英伟达市值单日蒸发3400亿美元，AI交易退潮信号？",
+        "source": "CNBC",
+        "time": "2026-05-06 05:30",
+        "summary": "市场担忧AI资本开支回报周期拉长，半导体板块遭抛售",
+        "link": ""
       },
       {
-        "title": "美元一级市场IPO窗口缓慢回暖,科技与新能源企业排队赴美/赴港双重上市增多",
+        "id": "news-mk-002",
+        "title": "私募信贷市场规模突破1.8万亿美元创历史新高",
+        "source": "Preqin",
+        "time": "2026-05-06 03:00",
+        "summary": "机构资金加速流入直接借贷策略，另类配置需求持续旺盛",
+        "link": ""
+      },
+      {
+        "id": "news-mk-003",
+        "title": "黑石一级市场基金募资超预期20%，总规模达320亿",
         "source": "Bloomberg",
-        "summary": "5月初美股一级市场出现明显回暖迹象,多家中概科技、AI基础设施、新能源企业递表纳斯达克或港交所,'A+H'/'港美双重上市'结构成主流。",
-        "tag": "诺亚核心",
-        "heat": 85
+        "time": "2026-05-05 21:00",
+        "summary": "养老基金和主权财富基金配置意愿强劲，另类资产仍是追逐方向",
+        "link": ""
       },
       {
-        "title": "AI算力需求带动数据中心REITs与电力基建私募基金成新一轮配置热点",
-        "source": "FT / CNBC",
-        "summary": "Hyperscaler资本开支持续上修,数据中心REITs与电力基建私募基金近三个月吸金创新高,长久期、与利率敏感度低成为机构资金的关键吸引点。",
-        "tag": "诺亚核心",
-        "heat": 83
-      },
-      {
-        "title": "黄金创历史新高后高位震荡,央行购金与避险资金驱动并存",
-        "source": "Reuters",
-        "summary": "现货黄金本周触及历史新高后高位震荡,新兴市场央行连续第18个月增持,地缘风险与美债信用担忧并行驱动配置需求。",
-        "tag": "市场",
-        "heat": 80
-      },
-      {
-        "title": "AI巨头一季度财报强劲,但'变现路径'分化成下一阶段股价催化剂",
-        "source": "WSJ / 路透",
-        "summary": "微软、谷歌、Meta、亚马逊一季报普遍超预期,但市场重点已从'资本开支规模'转向'AI变现路径':企业级SaaS订阅、云服务毛利率、广告ROI提升各有领先者。",
-        "tag": "市场",
-        "heat": 87
-      },
-      {
-        "title": "港股恒生指数突破23000点,南向资金持续净买入,中资科技重估逻辑延续",
-        "source": "Bloomberg",
-        "summary": "港股本周延续反弹,恒生指数突破23000点,南向资金近20个交易日净流入,中资科技与互联网板块估值修复行情延续。",
-        "tag": "市场",
-        "heat": 84
-      },
-      {
-        "title": "比特币站稳9万美元区间,ETF资金回流,全球家办对加密资产配置态度趋于理性",
-        "source": "CoinDesk / Bloomberg",
-        "summary": "比特币本周站稳9万美元区间,现货ETF连续两周净流入。多家家族办公室调研显示加密资产配置比例稳定在3-5%,从'投机品'向'另类配置工具'定位转换。",
-        "tag": "市场",
-        "heat": 76
+        "id": "news-mk-004",
+        "title": "比特币突破11万美元，ETF资金单周净流入23亿",
+        "source": "CoinDesk",
+        "time": "2026-05-05 16:00",
+        "summary": "机构采用加速，多家养老金首次配置比特币ETF仓位",
+        "link": ""
       }
     ],
-    "chinese": [
+    "hnwi": [
       {
-        "title": "新加坡13O/13U家办申请门槛与运营成本再升级,MAS审核周期拉长至12-18个月",
-        "source": "Straits Times / 业内整理",
-        "summary": "新加坡金管局(MAS)对13O/13U家办申请进一步收紧:最低管理资产门槛、本地员工要求、慈善捐赠比例均有调整,审核周期从原6-9个月拉长至12-18个月。新申请方向香港、迪拜分流。",
-        "tag": "华人/家办",
-        "heat": 91
+        "id": "news-h-001",
+        "title": "香港家办税务宽免门槛调降至2.4亿港元，单一家办认证机制启动",
+        "source": "HKSAR",
+        "time": "2026-05-06 07:00",
+        "summary": "新政策大幅降低家办设立门槛，预计吸引200+家族办公室落户",
+        "link": ""
       },
       {
-        "title": "香港家办税务优惠两周年盘点:获批数量稳步增长,'一国两制下的国际财富中心'定位强化",
-        "source": "HKMA / SCMP",
-        "summary": "香港家办税务豁免新政两周年,InvestHK数据显示获批家办数量持续增长,与新加坡形成'双港竞合'格局,部分华人家族选择'一新加一港'双家办架构。",
-        "tag": "华人/家办",
-        "heat": 88
+        "id": "news-h-002",
+        "title": "美国2026年遗产税起征点维持1361万美元，未做通胀调整",
+        "source": "IRS",
+        "time": "2026-05-06 02:00",
+        "summary": "2026年起征点不再随通胀上调，高净值家庭需提前规划传承策略",
+        "link": ""
       },
       {
-        "title": "英国'WEXIT'潮持续:取消Non-Dom制度后,高净值华人家庭外迁意大利、葡萄牙、阿联酋",
-        "source": "FT / Bloomberg",
-        "summary": "英国非定居居民(Non-Dom)税收制度取消后,高净值华人家庭外迁加速,目的地以意大利10万欧元统一税、葡萄牙NHR 2.0、阿联酋迪拜为主。'WEXIT'话题在华人精英圈层持续发酵。",
-        "tag": "华人/移民",
-        "heat": 89
+        "id": "news-h-003",
+        "title": "新加坡GIP投资移民门槛上调至1000万新币，家族办公室通道收紧",
+        "source": "MAS",
+        "time": "2026-05-05 20:00",
+        "summary": "新加坡大幅提高投资移民门槛，13O/13U税务豁免审查趋严",
+        "link": ""
       },
       {
-        "title": "美国2026税改提案聚焦遗产税豁免额度回调,海外华人信托结构面临再设计",
-        "source": "WSJ",
-        "summary": "美国国会两党就2026税改框架进入深度讨论,联邦遗产税终身豁免额度若按现行法案2026年底自动减半,持有美国资产或受益人在美的华人家族信托结构需提前规划。",
-        "tag": "华人/税务",
-        "heat": 86
+        "id": "news-h-004",
+        "title": "英国取消non-dom税制倒计时，超高净值华人或加速撤离",
+        "source": "FT",
+        "time": "2026-05-05 15:00",
+        "summary": "2027年4月全面实施，预计影响约3000名在英华人超高净值人士",
+        "link": ""
       },
       {
-        "title": "迪拜家办生态加速崛起,DIFC新增'家族安排'专项注册,吸引印度与华人富豪同步迁入",
-        "source": "Reuters",
-        "summary": "迪拜国际金融中心(DIFC)新增'家族安排(Family Arrangements)'专项注册框架,2026年一季度新设家办数量同比增长超60%,印度与华人富豪并列前两大来源。",
-        "tag": "华人/家办",
-        "heat": 82
-      },
-      {
-        "title": "CRS信息互换第七年:全球账户透明化常态化,跨境资产合规重构窗口收窄",
-        "source": "OECD / 业内整理",
-        "summary": "OECD CRS共同申报准则进入第七年常规交换期,新加坡、香港、瑞士、英属维京群岛等主要地区数据交换稳定执行。'非合规架构'修复窗口持续收窄,合规重构需求集中爆发。",
-        "tag": "华人/合规",
-        "heat": 84
+        "id": "news-h-005",
+        "title": "加拿大资本利得税改革落地，华人群体资产结构承压",
+        "source": "CBC",
+        "time": "2026-05-05 12:00",
+        "summary": "资本利得税纳入率从50%上调至66.7%，房产持有成本显著增加",
+        "link": ""
       }
     ]
   },
   "calendar": [
     {
-      "date": "2026-05-08",
-      "daysAway": 2,
-      "type": "market",
-      "title": "英国央行(BoE)5月利率决议",
-      "desc": "市场预期降息25bp几无悬念,关注Bailey对'WEXIT'后资金流出与英镑走势的措辞。",
-      "noah": "英国华人客户'去伦敦化'后续资产再配置话题切入。",
-      "layer": "信任层",
-      "angles": ["WEXIT后高净值华人三大目的地比较", "英镑趋势与美元/港币双轨配置"]
-    },
-    {
-      "date": "2026-05-13",
-      "daysAway": 7,
-      "type": "market",
-      "title": "美国4月CPI数据公布",
-      "desc": "市场关注核心服务通胀粘性,数据若超预期将进一步推迟降息预期。",
-      "noah": "诺亚CIO观察当周必发选题,直接对应'利率高位停留更久'主线。",
-      "layer": "信任层",
-      "angles": ["CPI对全球华人美元配置节奏影响", "通胀粘性下的固收+策略复盘"]
+      "date": "2026-05-07",
+      "event": "英国央行利率决议",
+      "importance": 3,
+      "category": "central_bank",
+      "brief": "市场预期维持5.25%不变，关注投票比例和通胀展望"
     },
     {
       "date": "2026-05-15",
-      "daysAway": 9,
-      "type": "noah",
-      "title": "诺亚2026年度全球私享会(香港站)",
-      "desc": "Glory黑卡客户专属,主题'财富之上,更见人生智慧',邀请全球艺术、人文、家族传承重磅嘉宾。",
-      "noah": "认同层旗舰场,'财富之外'板块全季内容重要素材库。",
-      "layer": "认同层",
-      "angles": ["私享会幕后:5位嘉宾的人生哲学", "Glory黑卡的'非物质权益'清单"]
+      "event": "FOMC利率决议",
+      "importance": 3,
+      "category": "fed",
+      "brief": "市场预期按兵不动，关注点阵图和鲍威尔发布会措辞"
     },
     {
       "date": "2026-05-22",
-      "daysAway": 16,
-      "type": "market",
-      "title": "Nvidia FY27 Q1财报",
-      "desc": "AI算力需求验证窗口,数据中心资本开支指引为核心市场预期变量。",
-      "noah": "AI主线赛道关键节点,带动数据中心REITs/电力基建话题。",
-      "layer": "信任层",
-      "angles": ["AI财报季诺亚客户最关心的3个数字", "从Nvidia看AI算力链私募基金机会"]
+      "event": "英伟达Q1财报",
+      "importance": 3,
+      "category": "earnings",
+      "brief": "AI算力需求验证关键节点，市场聚焦数据中心收入指引"
     },
     {
-      "date": "2026-05-31",
-      "daysAway": 25,
-      "type": "brand",
-      "title": "全球华人家庭日(诺亚自有节日)",
-      "desc": "诺亚每年5月最后一个周日定为'家庭日',认同层重磅IP,Glory主导。",
-      "noah": "全平台统一传播节点,'世界与家'板块年度峰值。",
-      "layer": "认同层",
-      "angles": ["三代人的财富对话", "家庭日致全球华人家庭一封信", "传承不只是钱:家训档案"]
+      "date": "2026-05-26",
+      "event": "美国核心PCE物价指数（4月）",
+      "importance": 2,
+      "category": "data",
+      "brief": "美联储最关注通胀指标，前值2.8%，市场预期持平"
+    },
+    {
+      "date": "2026-06-05",
+      "event": "欧央行利率决议",
+      "importance": 2,
+      "category": "central_bank",
+      "brief": "市场关注首次降息窗口，目前6月降息概率约40%"
     },
     {
       "date": "2026-06-12",
-      "daysAway": 37,
-      "type": "market",
-      "title": "美联储6月FOMC议息会议(含SEP经济预测)",
-      "desc": "全年最重要的利率决议节点之一,SEP经济预测更新,市场对7-9月降息窗口的最后判断点。",
-      "noah": "诺亚CIO观察+一周世界双线发力。",
-      "layer": "信任层",
-      "angles": ["6月不降息怎么办:三种应对剧本", "高利率下的私募信贷再讨论"]
+      "event": "FOMC利率决议 + 点阵图",
+      "importance": 3,
+      "category": "fed",
+      "brief": "年内第二次点阵图发布，全年降息路径关键指引"
+    },
+    {
+      "date": "2026-06-15",
+      "event": "美国2026年税务申报截止日",
+      "importance": 2,
+      "category": "tax",
+      "brief": "高净值人群需完成年度税务申报，跨境税务合规提醒"
     },
     {
       "date": "2026-06-18",
-      "daysAway": 43,
-      "type": "noah",
-      "title": "诺亚一年一度全球投资者大会",
-      "desc": "诺亚年度最重要的对外大会,集团CEO、CIO、各BU负责人集中亮相,媒体高密度报道窗口。",
-      "noah": "全频道当周内容100%围绕大会节奏,诺亚对话/Noya来了/CIO观察集中产出。",
-      "layer": "认知层+信任层",
-      "angles": ["大会前瞻:今年最值得关注的3个判断", "CEO专访:连接全球华人下一站", "CIO圆桌:2026下半年配置盘"]
+      "event": "日本央行利率决议",
+      "importance": 2,
+      "category": "central_bank",
+      "brief": "市场关注是否进一步加息至1.0%以上"
     },
     {
-      "date": "2026-06-30",
-      "daysAway": 55,
-      "type": "market",
-      "title": "上半年收官 + 美国独立日窗口前流动性",
-      "desc": "美股半年报窗口、债券半年再平衡、对冲基金锁定收益节点,市场波动率通常上行。",
-      "noah": "一周世界月末特辑,半年配置复盘选题。",
-      "layer": "信任层",
-      "angles": ["2026上半年配置答卷:谁赢了谁输了", "下半年三大核心赛道再确认"]
+      "date": "2026-07-10",
+      "event": "Q2财报季启动",
+      "importance": 2,
+      "category": "earnings",
+      "brief": "科技七巨头陆续发布，AI主题验证关键窗口"
     },
     {
-      "date": "2026-07-15",
-      "daysAway": 70,
-      "type": "market",
-      "title": "美国Q2财报季正式启动(摩根/花旗领跑)",
-      "desc": "六大行财报开启Q2财报季,银行信贷质量、消费信贷违约率、私募信贷敞口披露成焦点。",
-      "noah": "Olive私募信贷专题深化窗口。",
-      "layer": "信任层",
-      "angles": ["银行财报里的私募信贷信号", "消费信贷违约率对中产配置的启示"]
+      "date": "2026-07-19",
+      "event": "FOMC利率决议",
+      "importance": 3,
+      "category": "fed",
+      "brief": "市场关注首次降息可能性，目前降息概率约55%"
     },
     {
-      "date": "2026-07-21",
-      "daysAway": 76,
-      "type": "noah",
-      "title": "诺亚海外业务半年战略复盘(内部)",
-      "desc": "海外团队闭门复盘,涉及香港、新加坡、迪拜、纽约四地业务进展,内容团队据此校准下半年选题主线。",
-      "noah": "内部节点,但是对外'品牌故事'板块的素材采集窗口。",
-      "layer": "认知层",
-      "angles": ["四大全球账户中心,我们一年走了多远", "诺亚海外人:在新加坡的一天/在迪拜的一天"]
+      "date": "2026-07-30",
+      "event": "Jackson Hole全球央行年会",
+      "importance": 2,
+      "category": "conference",
+      "brief": "鲍威尔将发表主题演讲，市场寻找政策路径信号"
     },
     {
       "date": "2026-08-01",
-      "daysAway": 87,
-      "type": "market",
-      "title": "美国7月非农就业 + 杰克逊霍尔央行年会预热",
-      "desc": "8月非农 + 杰克逊霍尔(8月下旬)是夏末最关键的市场窗口,鲍威尔讲话定下半年主基调。",
-      "noah": "夏末诺亚CIO观察重磅节点。",
-      "layer": "信任层",
-      "angles": ["杰克逊霍尔前瞻:鲍威尔会说什么", "夏末配置:留现金还是上久期"]
-    },
-    {
-      "date": "2026-08-08",
-      "daysAway": 94,
-      "type": "brand",
-      "title": "诺亚控股23周年司庆窗口",
-      "desc": "诺亚2003年成立,8月为传统司庆月,'23+年持续稳健经营'四大支撑点的年度峰值传播窗口。",
-      "noah": "认知层 + 认同层联动,'我们是谁'板块年度爆款窗口。",
-      "layer": "认知层+认同层",
-      "angles": ["23年:从一家公司到一个全球华人财富生态", "23年陪伴:三组客户家庭故事", "下一个23年:连接全球华人的财富世界"]
+      "event": "美国移民排期公告（新财年）",
+      "importance": 1,
+      "category": "immigration",
+      "brief": "新财年首月排期变化，EB-5预留签证通道关注"
     }
   ],
   "topics": [
     {
-      "id": "TOPIC-20260506-01",
-      "title": "美联储不降息那天,我朋友圈刷到三种截然相反的解读——到底信谁?",
-      "plate": "market",
-      "column": "诺亚CIO观察",
-      "function": "trust",
-      "format": "竖屏90秒口播 + 双语字幕 + 顾问真人出镜",
-      "priority": "高频核心",
-      "hook": "凌晨2点,鲍威尔说完那句话。我朋友圈炸了三种声音——空头说要崩,多头说在洗盘,中间派说看就业。但所有人都漏了一个数字。",
-      "selfCheck": "✅ 信任层(懂金融,更懂华人) ✅ 引用'23年配置经验'支撑点 ✅ 不给具体收益率/投资建议 ✅ 钩子前5秒抓人 ✅ 全球华人客户共同关切"
+      "id": "topic-001",
+      "title": "降息窗口收窄下的美元资产重置",
+      "source": "美联储3月议息纪要",
+      "background": "美联储纪要显示年内降息空间收窄，10年期美债收益率跳升。市场重新定价降息预期，全球资产配置面临调整。",
+      "noahAngle": "对华人高净值人群而言，这不是简单的'降息推迟'，而是美元资产配置框架需要重新评估的信号。诺亚可提供跨周期的配置视角。",
+      "priority": "red",
+      "quote_zh": "降息迟到不可怕，可怕的是你的资产配置还停在上一轮周期。",
+      "quote_en": "Don't let your portfolio live in the last cycle while the market has already moved on.",
+      "platformHints": {
+        "wechat": "长文方向：美联储怎么想的，和你有什么关系——从降息窗口收窄看2026下半年配置逻辑",
+        "xiaohongshu": "情绪钩子：美联储一纸纪要，你的美元资产要'搬家'了吗？普通人也能看懂的三步调整法",
+        "videoChannel": "60秒说清：为什么说降息窗口收窄反而给了你一个调仓窗口期",
+        "x": "结论先行：Fed just slammed the door on near-term rate cuts. Here's what HNW families should do instead of waiting.",
+        "linkedin": "专业视角：Rate reset or regime change? Unpacking the implications of the Fed's hawkish minutes for cross-border asset allocation.",
+        "zhihu": "深度拆解：美联储纪要的每句话背后是什么？一文读懂2026下半年全球资产配置逻辑",
+        "youtube": "8分钟深度：降息窗口收窄对华人意味着什么？从美债到中概股的全景分析",
+        "reddit": "适合 r/fatFIRE：Fed paused cuts — how are you repositioning your USD portfolio? Discussion thread.",
+        "quora": "问答方向：What does the Fed's hawkish stance mean for Asian high-net-worth investors in 2026?"
+      }
     },
     {
-      "id": "TOPIC-20260506-02",
-      "title": "私募信贷为什么是这一轮的资产C位?——从2.3万亿美元说起",
-      "plate": "market",
-      "column": "Noya来了",
-      "function": "basic",
-      "format": "横屏5-7分钟科普 + 数字人B-roll + 信息图",
-      "priority": "中频支柱",
-      "hook": "全球私募信贷规模刚刚破了2.3万亿美元——这是什么概念?相当于把整个法国GDP搬过来,做一个资产类别。它凭什么这两年这么火?",
-      "selfCheck": "✅ 信任层(诺亚核心赛道) ✅ Olive业务匹配 ✅ 引用'累计配置USD 153B+'支撑点 ✅ 科普口吻不推销 ✅ 12栏目精准对齐"
+      "id": "topic-002",
+      "title": "香港家办新政：华人家办三选一",
+      "source": "香港财政预算案",
+      "background": "香港将家办税务宽免门槛下调至2.4亿港元，新增单一家办认证机制。与新加坡GIP投资移民1000万新币门槛形成鲜明对比。",
+      "noahAngle": "香港-新加坡-迪拜三城家办政策正形成差异化竞争，华人高净值家庭面临'三选一'的决策——诺亚作为跨区域配置专家可以提供独立的比较框架。",
+      "priority": "red",
+      "quote_zh": "你选的不只是城市，是你家未来十年的财富生态。",
+      "quote_en": "Choosing a family office hub isn't about tax rates — it's about building the right wealth ecosystem for the next decade.",
+      "platformHints": {
+        "wechat": "长文：香港vs新加坡vs迪拜——2026三大家办枢纽全方位对比，看完你就知道选哪",
+        "xiaohongshu": "素人分享：我帮爸妈对比了三个城市的家办政策，最后选了…（附详细对比表）",
+        "videoChannel": "视频脚本：香港家办门槛砍半！新加坡却涨了？3分钟带你读懂华人'三选一'",
+        "x": "Sharp take: Hong Kong just made family offices 2x more accessible. Singapore raised the bar. The message is clear — the competition for Asian wealth is on.",
+        "linkedin": "高管视角：Hong Kong's family office overhaul — a strategic play for Asian wealth. What this means for cross-border families.",
+        "zhihu": "专业回答：香港家办新政到底优惠在哪？跟新加坡比谁更香？一篇讲透",
+        "youtube": "10分钟深度：华人家办三城记——2026年香港、新加坡、迪拜政策全解读",
+        "reddit": "适合 r/singapore + r/HongKong：HK just lowered family office threshold to HKD 240M — does this change the game vs SG?",
+        "quora": "对比分析：How do Hong Kong's new family office policies compare to Singapore's for Chinese HNW families?"
+      }
     },
     {
-      "id": "TOPIC-20260506-03",
-      "title": "WEXIT后,高净值华人正在去这三个地方——真实路径,不是清单",
-      "plate": "market",
-      "column": "一周世界",
-      "function": "acquire",
-      "format": "横屏3-5分钟 + 顾问出镜 + 城市B-roll",
-      "priority": "高频核心",
-      "hook": "我们这三个月接到的咨询,英国出去的家庭比前一年加起来还多。但他们没去美国——而是去了三个你可能没怎么注意的地方。",
-      "selfCheck": "✅ 信任层(懂华人,跨境配置) ✅ 不点名竞品机构 ✅ 引用'四大全球账户中心'支撑点 ✅ 真实需求驱动,不做泛资讯 ✅ 高净值华人核心议题"
+      "id": "topic-003",
+      "title": "巴菲特接班人时刻：传承启示录",
+      "source": "伯克希尔股东大会倒计时",
+      "background": "2026年伯克希尔年会首次由Greg Abel以CEO身份独立主持Q&A环节，标志着后巴菲特时代正式开启。",
+      "noahAngle": "传承不是一个人的事，是一个家族/企业的系统工程。从巴菲特的传承安排看华人家族办公室的'接班路线图'——诺亚可以输出这个对照框架。",
+      "priority": "yellow",
+      "quote_zh": "巴菲特用二十年准备交接，你的家族传承计划开始了吗？",
+      "quote_en": "Warren Buffett spent 20 years preparing his succession. Your family's transition deserves no less.",
+      "platformHints": {
+        "wechat": "长文：巴菲特交班全复盘——从选人到机制，给中国家族企业的四点启示",
+        "xiaohongshu": "情绪向：看了巴菲特的传承方案，我明白了真正的'富过三代'靠的不是运气",
+        "videoChannel": "口播脚本：巴菲特把公司交给了谁？一个价值万亿的传承课，3分钟讲清楚",
+        "x": "取标题：Buffett's $1T succession playbook: appoint early, communicate often, trust the culture. Greg Abel's moment has arrived.",
+        "linkedin": "专业长文：Lessons from Berkshire Hathaway's succession for family offices — why the 'who' matters less than the 'how'.",
+        "zhihu": "深度：巴菲特接班布局全解析——这是一堂价值万亿的公司治理课",
+        "youtube": "视频：巴菲特接班人首次独立主持股东大会——这可能是今年最重要的传承案例",
+        "reddit": "适合 r/fatFIRE：Buffett's succession blueprint — what can HNW families learn from how Berkshire handled the transition?",
+        "quora": "问答：What are the key lessons from Warren Buffett's succession plan for family businesses?"
+      }
     },
     {
-      "id": "TOPIC-20260506-04",
-      "title": "Greg Abel的第一次股东大会——巴菲特把1兆现金交给他,我看了三个细节",
-      "plate": "dialogue",
-      "column": "诺亚对话",
-      "function": "trust",
-      "format": "横屏7-10分钟 + 高规格演播室 + 主持人深度复盘",
-      "priority": "中频支柱",
-      "hook": "5月3号那个周六,奥马哈下着小雨。Greg Abel走上讲台的时候,巴菲特坐在旁边——这个画面,可能要被反复回看10年。但比那个画面更值钱的,是他说的三句话。",
-      "selfCheck": "✅ 信任层+认同层(长期主义+家族传承) ✅ Glory家族办公室主题呼应 ✅ 不给具体投资建议 ✅ 深度内容形成势能 ✅ '观点现场'板块定位精准"
+      "id": "topic-004",
+      "title": "私募信贷：另类配置新主力",
+      "source": "Preqin / 黑石募资数据",
+      "background": "私募信贷市场规模突破1.8万亿美元，黑石最新基金募资超预期。在二级市场波动加剧的背景下，另类资产成为机构和个人高净值客户追逐的方向。",
+      "noahAngle": "私募信贷正在从'小众另类'变为'主流配置'——但华人投资者对其认知仍停留在初级阶段。诺亚可以用中文讲清楚这个赛道的机会和风险。",
+      "priority": "yellow",
+      "quote_zh": "当所有人都盯着股票的时候，聪明钱正在'不公开的市场'里悄悄布局。",
+      "quote_en": "While everyone watches the public markets, smart money has already moved to where the real growth is.",
+      "platformHints": {
+        "wechat": "长文：私募信贷凭什么成了华尔街的新宠？一文读懂1.8万亿美元赛道的逻辑",
+        "xiaohongshu": "图文笔记：有钱人最近都在投什么？一个你可能没听过但规模1.8万亿的市场",
+        "videoChannel": "口播：什么是私募信贷？3分钟搞懂这个顶级富豪都在配置的资产",
+        "x": "Quick take: Private credit just hit $1.8T. For HNW families, this isn't a niche anymore — it's a core allocation decision.",
+        "linkedin": "专业长文：Private credit at $1.8T — why this asset class deserves a permanent seat in your family office allocation.",
+        "zhihu": "专业回答：私募信贷和传统债券有什么区别？适合什么样的人配置？",
+        "youtube": "深度视频：私募信贷全解析——规模、风险、收益，以及华人投资者如何参与",
+        "reddit": "适合 r/fatFIRE：Anyone here allocating to private credit? How are you thinking about the liquidity premium?",
+        "quora": "专业解答：What are the risks and rewards of private credit investing for high-net-worth individuals?"
+      }
     },
     {
-      "id": "TOPIC-20260506-05",
-      "title": "在新加坡开家办,从'12个月就能搞定'到'18个月还在等'——我们看到的真相",
-      "plate": "market",
-      "column": "Noya来了",
-      "function": "trust",
-      "format": "横屏4-6分钟 + 顾问出镜 + 政策时间轴信息图",
-      "priority": "高频核心",
-      "hook": "三年前一个客户问我:在新加坡设家办难吗?我说不难,12个月。今年同一个客户介绍朋友过来——我得说实话:18个月,而且还可能不批。",
-      "selfCheck": "✅ 信任层(懂华人) ✅ Glory+集团跨境合规专长 ✅ 引用'四大全球账户中心'支撑点 ✅ 真实业务场景驱动 ✅ 不点名竞品/不夸大数据"
-    },
-    {
-      "id": "TOPIC-20260506-06",
-      "title": "听见世界·5月特辑:伯克希尔股东大会上,有人这样说投资",
-      "plate": "beyond",
-      "column": "听见世界",
-      "function": "warmth",
-      "format": "竖屏90秒哲思类 + 留白镜头 + 古典配乐",
-      "priority": "低频精品",
-      "hook": "他说:'最难的不是赚到钱,而是不被钱改变。'——奥马哈,2026年5月。",
-      "selfCheck": "✅ 认同层(财富之上,更见人生智慧) ✅ 不谈产品不推销 ✅ 留白感强 ✅ '财富之外'板块定位 ✅ Glory场景适配"
-    },
-    {
-      "id": "TOPIC-20260506-07",
-      "title": "AI财报季,我们客户最关心的不是股价——是这一个数字",
-      "plate": "market",
-      "column": "诺亚CIO观察",
-      "function": "trust",
-      "format": "竖屏90秒 + 顾问出镜 + 数据可视化",
-      "priority": "高频核心",
-      "hook": "Nvidia下周二要交卷了。我办公室里今天上午接了4个电话,问的都不是股价——而是同一个数字:数据中心资本开支指引。这背后,是华人家庭对AI主线的真实焦虑。",
-      "selfCheck": "✅ 信任层(懂金融,更懂华人) ✅ 诺亚核心赛道(AI/算力) ✅ 不给具体投资建议 ✅ 钩子直接抓人 ✅ 客户视角而非分析师视角"
-    },
-    {
-      "id": "TOPIC-20260506-08",
-      "title": "23年前,我们做了一个判断。现在,我们想再做一次——预告·诺亚6月全球投资者大会",
-      "plate": "connect",
-      "column": "品牌故事",
-      "function": "acquire",
-      "format": "竖屏60秒品牌片 + 历史影像剪辑 + 双语字幕",
-      "priority": "低频精品",
-      "hook": "2003年,我们押上了一个判断:中国会有一代新富人,他们需要的不是产品,而是一整个财富世界。23年过去了,这个判断不只对了——它还在继续生长。6月18日,诺亚2026全球投资者大会,我们再一次站到时代的拐点上。",
-      "selfCheck": "✅ 认知层(连接全球华人的财富世界) ✅ 引用'23+年持续稳健经营'支撑点 ✅ 双语处理 ✅ 不点名竞品 ✅ 品牌故事板块定调,适合投流"
+      "id": "topic-005",
+      "title": "AI退潮还是洗牌？英伟达暴跌启示",
+      "source": "英伟达市值单日蒸发3400亿美元",
+      "background": "英伟达一天跌掉一个AMD的市值，市场开始质疑AI资本开支的回报周期。但这是AI主题的终结，还是健康回调？",
+      "noahAngle": "AI主题的第一次重大分歧出现了。诺亚的立场：AI是长期的，但投资AI的方式需要分化。这恰好是CIO报告可以输出的差异化判断。",
+      "priority": "red",
+      "quote_zh": "AI没有退潮，退潮的是'闭眼买AI'就能赚钱的幻觉。",
+      "quote_en": "AI isn't over. What's over is the idea that you could throw money at anything AI and win.",
+      "platformHints": {
+        "wechat": "长文：英伟达一天跌掉一个AMD——AI信仰动摇了吗？诺亚CIO的冷静判断",
+        "xiaohongshu": "情绪文案：3400亿没了！但真正聪明的人说这是'打折买入'的机会？",
+        "videoChannel": "口播：英伟达暴跌，AI完了吗？别急，先听我把话说完",
+        "x": "Strong opinion: NVDA -$340B in a day isn't an AI crash. It's the market waking up to the fact that 'pick and shovel' isn't the only AI play.",
+        "linkedin": "判断长文：The AI trade is not dead — it's rotating. Why the next phase of AI investing favors diversified approaches.",
+        "zhihu": "拆解：英伟达一天跌3400亿的背后——AI产业链正在经历什么结构性变化？",
+        "youtube": "深度视频：英伟达暴跌深度分析——AI投资的下半场该怎么玩？",
+        "reddit": "适合 r/investing：NVDA dropped $340B in a day — is this a buying opportunity or the beginning of a correction?",
+        "quora": "客观分析：Is the AI stock bubble bursting after Nvidia's record one-day loss?"
+      }
     }
   ],
-  "competitors": [
-    {
-      "account": "海外华人财富机构A(Group A)",
-      "title": "美联储5月按兵不动后,我们重新看美元资产的三个角度",
-      "time": "2026-05-04",
-      "views": "12.4万",
-      "rate": "中等",
-      "viral": false,
-      "aiSummary": "结构清晰但偏分析师腔,缺少'华人客户视角'的具象案例。结论保守,缺乏鲜明判断。",
-      "overlap": "与我们TOPIC-20260506-01高度重叠,但我们以'朋友圈三种声音'切入更具传播张力,且更聚焦真实客户决策场景。",
-      "platform": "YouTube",
-      "duration": "5分20秒",
-      "group": "A"
-    },
-    {
-      "account": "海外华人财富机构B(Group A)",
-      "title": "新加坡13O家办最新政策梳理",
-      "time": "2026-05-03",
-      "views": "8.7万",
-      "rate": "中等",
-      "viral": false,
-      "aiSummary": "政策梳理完整但偏百科式,缺乏'我们看到的真实案例'的真实业务洞察。无品牌人格沉淀。",
-      "overlap": "与TOPIC-20260506-05对标,我们的差异化在于:用三年前/今年同一客户的对比讲'政策收紧'的体感,带顾问出镜建立信任。",
-      "platform": "YouTube",
-      "duration": "7分10秒",
-      "group": "A"
-    },
-    {
-      "account": "海外华人财富机构C(Group A)",
-      "title": "WEXIT与英国Non-Dom制度之死",
-      "time": "2026-05-01",
-      "views": "23.6万",
-      "rate": "高",
-      "viral": true,
-      "aiSummary": "选题踩点准、爆款。但内容偏宏观叙事,缺少'高净值华人具体怎么走'的实操路径。评论区大量观众追问目的地选择。",
-      "overlap": "与TOPIC-20260506-03高度重叠且对方占先发优势。我们的应对:不打'政策科普',打'真实路径':具体哪三个目的地,以及'我们看到的'真实需求结构。",
-      "platform": "YouTube",
-      "duration": "8分45秒",
-      "group": "A"
-    },
-    {
-      "account": "全球私行品牌D(Group B)",
-      "title": "Private Credit: The Asset Class of the Decade",
-      "time": "2026-05-02",
-      "views": "5.2万",
-      "rate": "中等",
-      "viral": false,
-      "aiSummary": "高品质制作、专业洞察扎实。但全英文、面向欧美机构客户,对华人家庭客户的语境与情感连接缺位。",
-      "overlap": "选题与TOPIC-20260506-02对齐。我们的差异化:中文为主+双语字幕,且把'2.3万亿美元 = 法国GDP'的类比落到华人客户能感知的尺度上。",
-      "platform": "YouTube",
-      "duration": "6分30秒",
-      "group": "B"
-    },
-    {
-      "account": "全球私行品牌E(Group B)",
-      "title": "2026 Mid-Year Outlook: Where We See Opportunity",
-      "time": "2026-04-30",
-      "views": "9.1万",
-      "rate": "中等",
-      "viral": false,
-      "aiSummary": "标准型半年展望,信息密度高但传播性弱,'机构语言'对消费端转化效率有限。",
-      "overlap": "与未来半年展望选题对标,我们6月18日全球投资者大会窗口可以做'华人版半年盘'差异化:不只讲资产,讲华人家庭场景下的配置选择。",
-      "platform": "YouTube",
-      "duration": "11分20秒",
-      "group": "B"
-    },
-    {
-      "account": "全球私行品牌F(Group B)",
-      "title": "Investing in the Age of AI: A Family Office Perspective",
-      "time": "2026-05-04",
-      "views": "6.8万",
-      "rate": "中等",
-      "viral": false,
-      "aiSummary": "家办视角切AI,定位准确。但案例偏欧美家族,情感落点不在亚洲华人家庭。",
-      "overlap": "与TOPIC-20260506-07可错位:我们做'华人客户在AI财报季最关心的一个数字',更具体、更场景化、更具备朋友圈转发性。",
-      "platform": "YouTube",
-      "duration": "9分10秒",
-      "group": "B"
-    },
-    {
-      "account": "海外华人财富机构G(Group A)",
-      "title": "巴菲特股东大会:Greg Abel接班后的伯克希尔",
-      "time": "2026-05-04",
-      "views": "18.2万",
-      "rate": "高",
-      "viral": true,
-      "aiSummary": "话题踩点准、剪辑流畅。但偏'新闻复盘',缺乏'对华人家族传承的启示'这一深度落点。",
-      "overlap": "与TOPIC-20260506-04对标。我们的差异化:不做新闻复盘,做'诺亚对话'级深度——讲长期主义如何在华人家族传承中落地,带Glory家办主题。",
-      "platform": "YouTube",
-      "duration": "10分30秒",
-      "group": "A"
-    },
-    {
-      "account": "全球私行品牌H(Group B)",
-      "title": "Wealth Beyond Wealth: A Conversation on Legacy",
-      "time": "2026-04-29",
-      "views": "3.4万",
-      "rate": "低",
-      "viral": false,
-      "aiSummary": "认同层好内容,人物访谈质感高。但播放量偏低反映出此类内容传播门槛高,需要强分发。",
-      "overlap": "与TOPIC-20260506-06定位对齐——'听见世界'恰好是诺亚最容易做出差异的认同层赛道。诺亚优势:可借5月15日香港私享会素材+5月31日家庭日窗口形成节奏化输出。",
-      "platform": "YouTube",
-      "duration": "14分20秒",
-      "group": "B"
-    }
-  ],
-  "weeklyInsight": {
-    "competitorTotal": 38,
-    "noahTotal": 9,
-    "topTopic": "美联储5月议息 / 私募信贷零售化 / WEXIT后高净值华人去向",
-    "topTopicCoverage": "Group A(华人机构)在'WEXIT'与'家办政策'两个赛道占据先发优势,Group B(全球私行)在'私募信贷'与'AI家办视角'有高品质英文内容但缺华人语境。诺亚的应对窗口:用'真实业务体感+华人家庭场景'切入Group A的赛道,用'中文+双语'的内容形态接住Group B的议题。",
-    "missedTopic": "竞品本周普遍未覆盖:(1) 迪拜DIFC家办专项注册新规对华人家庭的实际机会;(2) CRS第七年对'存量非合规架构'的最后修复窗口提示;(3) '后巴菲特时代长期主义'对华人家族传承的启示。三者均为诺亚信任层+认同层下周可优先布局的差异化选题。"
+  "summary": {
+    "firstChoicePlatform": "小红书 · 破圈潜力最高",
+    "aiPriorityTopicId": "topic-004",
+    "viralPotentialTopicId": "topic-002"
   }
 }

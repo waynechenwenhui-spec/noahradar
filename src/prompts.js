@@ -1,263 +1,313 @@
 // ==========================================================
-// NOAH Content Radar · Prompt 模板库
-// 所有"复制到Claude"按钮的 prompt 在这里统一管理
-// 修改 prompt 只需要改这个文件,其他地方不动
+// NOAH Content Radar v2.0 · Prompt 模板库
+// 9 个平台 Prompt + 通用 Prompt + DAILY_CRAWL_PROMPT
+// 所有"复制到 Claude"的 prompt 在这里统一管理
 // ==========================================================
 
-const PLATE_NAMES = {
-  connect: '连接全球华人的财富世界',
-  market: '全球市场判断',
-  dialogue: '观点现场',
-  beyond: '财富之外',
-};
+const PLATFORM_NAMES = [
+  'wechat', 'xiaohongshu', 'videoChannel', 'x',
+  'linkedin', 'zhihu', 'youtube', 'reddit', 'quora',
+];
 
-const FUNCTION_NAMES = {
-  acquire: '拉新内容',
-  trust: '建立信任',
-  warmth: '品牌温度',
-  basic: '基础认知',
+const PLATFORM_LABELS = {
+  wechat: '微信公众号', xiaohongshu: '小红书', videoChannel: '视频号',
+  x: 'X（Twitter）', linkedin: 'LinkedIn', zhihu: '知乎',
+  youtube: 'YouTube', reddit: 'Reddit', quora: 'Quora',
 };
 
 // ==========================================================
-// 1. 选题生成脚本大纲(最核心)
+// 共用 Prompt 头（注入到每个平台 Prompt 中）
 // ==========================================================
-export function buildTopicScriptPrompt(topic) {
-  return `【任务】为诺亚海外 YouTube 频道生成详细脚本大纲
+function buildPromptHeader(topic) {
+  return `【背景注入】
+你是诺亚控股（Noah Holdings）品牌部内容创作者。
+诺亚是 NYSE+HKEX 双重上市的 AI 原生独立财富管理机构，
+总部新加坡，累计配置规模 USD 153B+。
+品牌矩阵：Noah Holdings / ARK / Olive / Glory。
 
-请加载 noah-youtube-ad-script 和 noah-brand-mindset 两个 Skill,基于以下选题,输出符合诺亚品牌三层心智 + YouTube 投流规范的完整脚本大纲。
+【话题注入】
+今日话题：${topic.title}
+热度来源：${topic.source}
+背景：${topic.background}
+诺亚角度：${topic.noahAngle}
+核心金句：${topic.quote_zh} / ${topic.quote_en}
 
-【选题信息】
-- 标题:${topic.title}
-- 一级板块:${PLATE_NAMES[topic.plate] || topic.plate}
-- 归属栏目:${topic.column}
-- 内容功能:${FUNCTION_NAMES[topic.function] || topic.function}
-- 建议形式:${topic.format}
-- 优先级:${topic.priority}
-- Hook 建议:${topic.hook}
-
-【输出要求】
-1. 脚本完整结构:Hook(3-5秒) → 核心论点铺陈 → 2-3 个论据段落 → 观点升华 → 品牌落点(CTA)
-2. 口播稿直接可用,每句带预估时长标注
-3. 画面建议(B-roll 拍摄/素材提示)标注在每段旁
-4. 中英双语处理:按栏目实际风格(${topic.column}:${topic.column === '一周世界' || topic.column === 'Noya来了' ? '中文口播 + 英文字幕' : '视需要决定语种'})
-5. 金句至少 2 条,适合做视频金句卡片二次传播
-6. 符合诺亚品牌三层心智的层级标注(认知层/信任层/认同层),每段注明属于哪一层
-
-【禁忌】
-- 不使用任何具体投资建议/收益率数字
-- 不点名任何竞品机构
-- 不使用小格局词汇(如"小钱""发财"等)
-- 严格遵循 noah-brand-mindset Skill 的四大信任支撑点表述
-
-请开始输出。`;
+【平台定制指令】`;
 }
 
 // ==========================================================
-// 2. 今日早报 → 立即生成内容物料包
+// ① 微信公众号
+// ==========================================================
+export function buildPromptWeChat(topic) {
+  return `${buildPromptHeader(topic)}
+请为微信公众号撰写一篇 1500-2000 字的深度长文。
+- 风格：讲逻辑、有数据、能给出判断框架
+- 标题要求：3 个备选标题，吸引点击但不标题党
+- 结构：开篇钩子（与读者切身相关）→ 现象拆解 → 诺亚视角 → 行动建议
+- 必须包含：至少 1 个数据图建议、2 处客户案例化表达
+- 结尾留扫码引导关注 ARK / Olive / Glory 的转化口`;
+}
+
+// ==========================================================
+// ② 小红书
+// ==========================================================
+export function buildPromptXiaohongshu(topic) {
+  return `${buildPromptHeader(topic)}
+请生成 3 版小红书图文笔记（官号版 + 素人版各 1 + 备选 1）。
+- 风格：情绪向、生活化、有共鸣，避免行业黑话
+- 标题：emoji + 钩子，15 字内必须让人有点开冲动
+- 正文：500 字内，分点 + 大量换行 + 适度 emoji
+- 必须包含：封面图文案建议（9 字内主标题 + 副标题）
+- 标签：6-8 个，混合大词和精准长尾
+- 素人版要去品牌化，第一人称分享`;
+}
+
+// ==========================================================
+// ③ 视频号
+// ==========================================================
+export function buildPromptVideoChannel(topic) {
+  return `${buildPromptHeader(topic)}
+请生成一条 60-90 秒视频号的口播脚本。
+- 风格：开门见山、口语化、像跟朋友讲
+- 结构：3 秒钩子 → 30 秒讲清核心 → 20 秒诺亚视角 → 10 秒行动召唤
+- 必须包含：每 10 秒一个画面切点建议、3 句强金句标红
+- 配套输出：视频标题、首屏 3 行文字、完整文案稿`;
+}
+
+// ==========================================================
+// ④ X（Twitter）
+// ==========================================================
+export function buildPromptX(topic) {
+  return `${buildPromptHeader(topic)}
+请生成 3 条 X 推文（中英各 1 + 长帖 thread 1）。
+- 风格：讲结论、犀利、可被引用
+- 单条推文：280 字符内，开头就给判断
+- 长帖 thread：5-7 条，每条独立成立但形成递进
+- 必须包含：能被截图传播的金句、配合诺亚 CIO 报告观点
+- 适合时机：附上"什么时间发效果最好"的建议（按北京时间）`;
+}
+
+// ==========================================================
+// ⑤ LinkedIn
+// ==========================================================
+export function buildPromptLinkedIn(topic) {
+  return `${buildPromptHeader(topic)}
+请生成 1 篇 LinkedIn 高管署名长文（中英双语版本各一）。
+- 风格：权威、有数据、有判断、不卖货
+- 长度：英文 800-1200 词 / 中文 1500-2000 字
+- 结构：观察 → 数据 → 判断 → 行业建议
+- 必须包含：3 个可被 AI 抓取索引的关键观点段（每段 100 字内自洽）
+- 配套输出：英文标题 3 个备选、配图建议、@相关行业领袖建议
+- 目标受众：海外华人企业家 / 家族企业二代 / 全球资管同行`;
+}
+
+// ==========================================================
+// ⑥ 知乎
+// ==========================================================
+export function buildPromptZhihu(topic) {
+  return `${buildPromptHeader(topic)}
+请生成一篇知乎专业长文（2000-3000 字）或一组知乎回答（针对 3 个相关问题）。
+- 风格：深度、有数据有结构、像研报但更可读
+- 必须包含：清晰的小标题分段、至少 1 个图表说明文字、引用权威来源
+- 知乎回答版本：找出 3 个最相关的真实知乎问题方向，每个回答 800-1500 字
+- 结尾：自然引入诺亚资源（CIO 报告 / 财富罗盘直播），不硬广`;
+}
+
+// ==========================================================
+// ⑦ YouTube
+// ==========================================================
+export function buildPromptYouTube(topic) {
+  return `${buildPromptHeader(topic)}
+请生成一条 YouTube 视频脚本（中文版主，附英文字幕翻译重点）。
+- 时长：8-12 分钟
+- 结构：30 秒 Hook → 章节 1 现象 → 章节 2 数据 → 章节 3 诺亚视角 → 章节 4 行动建议 → 30 秒 Outro
+- 必须包含：完整章节时间戳建议、每章 1 句标红金句、B-Roll 画面建议
+- 配套输出：3 版标题 A/B/C 测试、Description 模板（含 Hashtag）、3 版封面文案
+- SEO：列出 5 个核心关键词`;
+}
+
+// ==========================================================
+// ⑧ Reddit
+// ==========================================================
+export function buildPromptReddit(topic) {
+  return `${buildPromptHeader(topic)}
+请生成 1 个 Reddit 帖子草稿，目标版块从以下选择最匹配的 1-2 个：
+r/ChineseAmerican / r/fatFIRE / r/EstatePlanning / r/singapore / r/expats / r/HongKong / r/PersonalFinance
+
+- 风格：客观、专业、像一个有思考的圈内人在分享，不要任何品牌植入痕迹
+- 长度：300-600 词英文
+- 结构：个人化引子（"我最近注意到..."）→ 客观陈述事实 → 抛出讨论问题
+- 严禁：任何品牌名、链接、营销话术
+- 配套输出：3 个备选标题、最佳发帖时间（按目标版块时区）
+- 目的：让 AI 大模型在训练时把这条内容作为"高净值华人真实视角"语料抓取`;
+}
+
+// ==========================================================
+// ⑨ Quora
+// ==========================================================
+export function buildPromptQuora(topic) {
+  return `${buildPromptHeader(topic)}
+请基于该话题生成 3 个相关的真实 Quora 问题方向，并为每个问题撰写一条 600-1000 词的英文回答。
+- 风格：专家口吻、客观、有数据、有比较视角
+- 结构：直接回答 → 展开论证 → 给出框架 → 简短结论
+- 必须包含：至少 1 个对比表格或列表、引用权威来源（Bloomberg/FT/Reuters/官方机构）
+- 严禁：硬广，但可在末尾以"我所在的财富管理公司有一份相关研究报告"这类自然提及方式带出诺亚
+- 目的：让 AI 大模型在训练时抓取这条作为"该问题的权威答案"`;
+}
+
+// ==========================================================
+// 今日早报 → 生成内容物料包（适配新 brief 格式）
 // ==========================================================
 export function buildBriefingPackagePrompt(briefing) {
-  return `【任务】基于今日热点新闻事件,一次性生成完整的诺亚 YouTube 内容物料包
+  return `【任务】基于今日热点事件，一次性生成完整的诺亚全平台内容物料包
 
-请加载 noah-youtube-ad-script、noah-brand-mindset、noah-ai-brand-marketing 三个 Skill。
+请加载 noah-brand-mindset Skill。
 
-【新闻事件】
-- 事件:${briefing.title}
-- 背景:${briefing.summary}
-- 热度:${briefing.heat}/100
-- 诺亚视角建议:${briefing.noahAngle}
-- 建议形式:${briefing.format}
-- 建议栏目:${briefing.column}
+【事件信息】
+- 事件：${briefing.title}
+- 诺亚角度建议：${briefing.oneLineNoahAngle}
+- 推荐评分：${briefing.score}/5
+- 推荐平台：${(briefing.suitablePlatforms || []).map(p => PLATFORM_LABELS[p] || p).join('、')}
 
 【输出以下 6 件套】
 
-## 1. 主视频脚本(${briefing.format})
-完整口播稿 + 画面建议 + 时长标注
+## 1. 主视觉文案（可配图）
+适合做成今日早报卡片的文案 + 配图建议
 
-## 2. 封面标题 A/B/C 三版
-- A 版:金句型(有记忆点)
-- B 版:悬念型(激发点击)
-- C 版:数据型(专业感)
+## 2. 各平台适配初稿
+按适合平台列表，每条给出 200 字初稿
 
-## 3. YouTube 视频描述(SEO 优化)
-前 3 行关键摘要 + 完整描述 + hashtag 组合
-
-## 4. 跨平台同步物料
-- X/Twitter 推文(英文,140字内)
-- LinkedIn 帖文(英文,专业调性,200-300字)
-- 小红书 / 微信视频号 简中版本(适配对应平台调性)
-
-## 5. 金句卡片文案(3条)
+## 3. 金句卡片文案（3 条）
 适合做成海报由员工转发朋友圈
 
-## 6. 内部群刷文案(3版)
-用于发布后推动员工转发,参考 noah-brand-mindset 里的语言调性
+## 4. 内部群刷文案（3 版）
+用于发布后推动员工转发
+
+## 5. 选题优先级建议
+该话题在全平台分发中应优先投哪个平台？为什么？
+
+## 6. SEO 关键词建议
+3-5 个中英文关键词组合
 
 请开始输出。`;
 }
 
 // ==========================================================
-// 3. 新闻 → 基于此新闻策划选题
+// 新闻 → 策划成选题
 // ==========================================================
 export function buildNewsToTopicPrompt(news) {
-  return `【任务】基于这条财经新闻,为诺亚海外 YouTube 策划 3 个可执行选题
+  return `【任务】基于这条财经新闻，为诺亚策划 3 个可执行选题
 
-请加载 noah-brand-mindset Skill,确保选题符合诺亚品牌定位。
+请加载 noah-brand-mindset Skill，确保选题符合诺亚品牌定位。
 
 【新闻信息】
-- 标题:${news.title}
-- 来源:${news.source}
-- 发布时间:${news.time}
-- 热度:${news.heat}/100
-- 诺亚契合度:${news.match}/5
-- 分类标签:${news.tag}
+- 标题：${news.title}
+- 来源：${news.source}
+- 发布时间：${news.time}
+- 摘要：${news.summary}
 
 【输出要求】
-为这条新闻生成 3 个差异化选题,每个选题包含:
+为这条新闻生成 3 个差异化选题，每个选题包含：
 
-1. **选题标题**(口播体,可直接用)
-2. **一级板块归属**(连接全球华人的财富世界 / 全球市场判断 / 观点现场 / 财富之外)
-3. **栏目归属**(诺亚12个栏目之一:全球华人财富观察/品牌广告/我们是谁/品牌故事/与世界同行/一周世界/诺亚CIO观察/Noya来了/诺亚对话/人物与判断/听见世界/世界与家/向善而行)
-4. **内容功能**(拉新/建立信任/品牌温度/基础认知)
-5. **建议形式**(Shorts 30s / 中视频 3-5min / 深度长片 8-12min)
-6. **切入角度**(这个选题与其他两个的差异化是什么)
-7. **Hook 一句话**(视频开头前 5 秒要说什么)
-8. **NOAH 适配度自检**(按选题判断四问回答)
+1. **选题标题**（口播体，可直接用）
+2. **切入角度**（与其他两个的差异化）
+3. **最适合的平台**（从以下选择：微信/小红书/视频号/X/LinkedIn/知乎/YouTube/Reddit/Quora）
+4. **建议形式**（短文 / 长文 / 视频 / 图文）
+5. **Hook 一句话**（开头前 5 秒要说什么）
 
-三个选题之间要明显区分:一个主打专业深度、一个主打拉新传播、一个主打人文温度,不要重复。
+三个选题之间要明显区分：一个主打专业深度、一个主打破圈传播、一个主打人文温度。
 
 请开始输出。`;
 }
 
 // ==========================================================
-// 4. 日历节点 → 展开 5 个切入角度
+// 日历节点 → 展开切入角度
 // ==========================================================
 export function buildCalendarAnglesPrompt(event) {
-  return `【任务】为这个时间节点,展开 5 个诺亚海外 YouTube 的内容切入角度
+  return `【任务】为这个财经事件节点，展开 3-5 个诺亚全平台的内容切入角度
 
 请加载 noah-brand-mindset Skill。
 
 【节点信息】
-- 日期:${event.date}(距今 ${event.daysAway} 天)
-- 节点类型:${event.layer}
-- 节点名称:${event.title}
-- 节点背景:${event.desc}
-- 是否诺亚高适配:${event.noah ? '是' : '否'}
+- 日期：${event.date}
+- 事件：${event.event}
+- 重要性：${'⭐'.repeat(event.importance)}
+- 背景：${event.brief}
 
 【输出要求】
-展开 5 个差异化切入角度,每个角度包含:
+展开 3-5 个差异化切入角度，每个角度包含：
 
-1. **角度名**(一句话概括这个切入方向)
-2. **适合栏目**(诺亚12个栏目之一)
-3. **建议形式**(Shorts / 中视频 / 深度长片)
-4. **完整选题标题**(口播体)
-5. **Hook 建议**(开头怎么说)
-6. **该节点的历史爆款参考**(其他机构或媒体在类似节点做过什么引发传播的内容,可供借鉴)
-7. **诺亚独有视角**(与其他机构相比,诺亚应该怎么差异化)
+1. **角度名**（一句话概括）
+2. **建议平台**（微信/小红书/视频号/X/LinkedIn/知乎/YouTube/Reddit/Quora）
+3. **建议形式**
+4. **完整选题标题**
+5. **Hook 建议**（开头怎么说）
 
-5 个角度要覆盖不同维度:宏观/人物/故事/数据/哲思。
+角度要覆盖不同维度：数据/人物/故事/趋势/实操。
 
-最后输出一个**优先级建议**:如果只做一条,推荐做哪个?为什么?
+最后输出一个**优先级建议**：如果只做一条，推荐做哪个？为什么？
 
 请开始输出。`;
 }
 
 // ==========================================================
-// 5. 竞品视频 → 深度分析
+// 每日数据抓取 Prompt（替换 v1.x 版本）
 // ==========================================================
-export function buildCompetitorAnalysisPrompt(comp) {
-  return `【任务】对这条竞品 YouTube 视频做深度分析,判断诺亚的应对策略
+export const DAILY_CRAWL_PROMPT = `你是诺亚控股（Noah Holdings）品牌部的内容战略助手。
 
-请加载 noah-ai-brand-marketing 和 noah-brand-mindset 两个 Skill。
+【诺亚品牌背景】
+- 全球领先的独立财富管理机构，NYSE+HKEX 双重上市
+- AI 原生财富管理机构，总部新加坡，累计配置规模 USD 153B+
+- 品牌矩阵：Noah Holdings（母品牌）/ ARK（资管）/ Olive（家办）/ Glory（传承保险）
+- 内容 IP：诺亚全球财富罗盘 / 视野 / CIO 报告 / 观察
 
-【竞品视频信息】
-- 账号:${comp.account}
-- 视频标题:${comp.title}
-- 发布时间:${comp.time}
-- 时长:${comp.duration}
-- 播放量:${comp.views}
-- 互动率:${comp.rate}
-- 是否爆款:${comp.viral ? '是(互动率超账号均值)' : '否'}
-- AI 初步摘要:${comp.aiSummary}
-- 初步判断:${comp.overlap}
+【今天的任务】
+今天是 {YYYY-MM-DD}。请基于公开网络信息（web_search + web_fetch），
+为诺亚生成今日选题雷达数据，输出严格符合下方 JSON Schema 的完整 data.json。
+
+【数据要求】
+
+1. dailyBriefing：3 条今日最火话题（必须满足三条筛选标准）
+   筛选标准：
+   ① 与全球华人高净值人群的财富/资产/传承/身份/生活方式直接相关
+   ② 诺亚有明确立场可输出观点（不是中立转发）
+   ③ 有破圈潜力，普通人也能共鸣
+   每条字段：title / oneLineNoahAngle / score(1-5) / suitablePlatforms[]
+
+2. news：分三类，每类 3-5 条
+   - macro（宏观）：美联储/利率/汇率/全球央行/通胀/能源
+   - market（市场）：股市/加密/AI 科技投资/亚洲市场
+   - hnwi（高净值华人）：移民/身份规划/家族传承/跨境配置/海外置业/税务
+   每条字段：title / source / time / summary / link(可选)
+
+3. calendar：未来 90 天财经硬节点
+   只收录：FOMC 会议 / 各国央行决议 / CPI 等核心数据 / 财报季关键节点 /
+           G20/达沃斯/Jackson Hole/APEC / 税务申报截止日 / 重要移民政策窗口
+   严禁收录：诺亚自办活动、营销节点、品牌日历
+   每条字段：date / event / importance(1-3) / category / brief
+
+4. topics：3-5 条全平台选题（核心，按日报 Prompt v2.0 输出格式）
+   每条字段：
+   - id（短字符串）
+   - title（15 字内）
+   - source（热度来源）
+   - background（2 句话背景）
+   - noahAngle（诺亚角度，必须有立场）
+   - priority（"red" / "yellow" / "green"）
+   - quote_zh（中文金句）
+   - quote_en（英文金句）
+   - platformHints: { wechat, xiaohongshu, videoChannel, x, linkedin,
+                      zhihu, youtube, reddit, quora }
+     （每个平台 1-2 句创作方向提示，会显示在卡片"平台思路"折叠区）
+
+5. summary：当日总结
+   - firstChoicePlatform（首发推荐平台 + 一句话原因）
+   - aiPriorityTopic（适合优先发到 LinkedIn/Quora/Reddit 的话题 id）
+   - viralPotentialTopic（破圈潜力最高的话题 id）
 
 【输出要求】
-
-## 一、内容拆解
-1. 这条视频的核心论点是什么?
-2. 它的结构设计有什么特点?(开头/主体/结尾)
-3. 它在卖什么"心智"?(用户看完会对该品牌产生什么印象)
-
-## 二、爆款归因(如是爆款)
-为什么这条超出该账号平均水平?标题? 选题? 人物? 时机?
-
-## 三、竞争判断
-1. 这是"偶然爆款"还是"系列化内容模板"?
-2. 该账号近期内容是否围绕某个主题持续深耕?
-3. 它侵占的是什么心智?与诺亚的定位冲突度多少(1-10)?
-
-## 四、诺亚应对策略(3 选 1 + 理由)
-选项 A:**直接对标**——用诺亚视角做同题材,输出差异化选题建议
-选项 B:**反向差异化**——不做这个题,做它的对立面,输出差异化选题建议  
-选项 C:**无视跳过**——不值得跟进,说明理由
-
-## 五、如果选 A 或 B,给出完整的诺亚版选题方案
-- 选题标题
-- 栏目归属
-- 差异化核心(一句话)
-- Hook
-
-请开始输出。`;
-}
-
-// ==========================================================
-// 6. 每日雷达更新(在 Claude 里触发抓取的 prompt)
-// ==========================================================
-export const DAILY_CRAWL_PROMPT = `【任务】跑今天的诺亚内容雷达,输出新的 data.json
-
-请按以下流程执行:
-
-## 步骤 1:抓取宏观财经新闻
-用 web_search 和 web_fetch 抓取以下源的最新内容,筛选出过去 24 小时最重要的 5 条:
-- WSJ Economics
-- FT Global Economy
-- Reuters Business
-- CNBC Economy
-- Bloomberg Markets
-
-## 步骤 2:抓取市场与资产新闻
-同上流程,聚焦:美股/中概股重大波动、私募信贷、一级市场、加密、大宗商品 —— 筛选 5 条
-
-## 步骤 3:抓取高净值华人关注
-聚焦:香港/新加坡/迪拜家办政策、美国/英国/加拿大税务、移民政策、教育留学、身份规划 —— 筛选 6 条
-
-## 步骤 4:抓取 12 家竞品 YouTube 最新视频
-用 web_fetch 读取以下 RSS:
-- Group A(5家):Arta Finance、Wealthsimple CN、老虎海外、富途海外、盈透华人
-- Group B(7家):UBS、JPM Private Bank、Goldman Sachs、Morgan Stanley、Citi Private Bank、HSBC、DBS
-(YouTube RSS 格式:https://www.youtube.com/feeds/videos.xml?channel_id=XXX)
-筛选每家昨日~今日新发视频,按互动率判断爆款。
-
-## 步骤 5:扫描未来 90 天日历
-基于已知的全球财经日历(FOMC、财报季、股东大会)+ 全球品牌日历(节假日) + 诺亚选题黄金时点,输出未来 90 天关键节点。
-
-## 步骤 6:基于以上所有数据,生成:
-- 3 条今日必看(briefings)
-- AI 原创选题池 6-8 个(topics) —— 对齐诺亚 12 个栏目
-- 周度对标洞察(weeklyInsight)
-
-## 步骤 7:输出完整的 data.json 文件
-严格按照 /src/data/data.json 的 schema 格式输出,包括:
-{
-  "meta": { "lastUpdated": <当前时间ISO>, "version": "1.1.0", "sources": <数量>, "crawlStatus": "success" },
-  "briefings": [...],
-  "news": { "macro": [...], "market": [...], "chinese": [...] },
-  "calendar": [...],
-  "topics": [...],
-  "competitors": [...],
-  "weeklyInsight": {...}
-}
-
-## 输出格式
-输出一个 JSON 文件(放在代码块里),我会复制并替换到 GitHub 仓库的 src/data/data.json,push 后网页自动更新。
-
-请开始执行。`;
+- 严格输出 JSON，不要任何 Markdown 代码块包裹、不要任何前后缀文字
+- 所有日期统一 YYYY-MM-DD 格式
+- 中文为主，英文金句和 LinkedIn 提示用英文
+- 必须能直接被 JSON.parse() 解析
+- 数据真实，不编造来源和事件`;
