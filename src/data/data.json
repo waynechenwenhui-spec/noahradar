@@ -1,368 +1,368 @@
 {
-  "lastUpdated": "2026-05-19T18:00:00+08:00",
+  "lastUpdated": "2026-05-28T18:30:00+08:00",
   "dailyBriefing": [
     {
-      "id": "db-001",
-      "title": "鲍威尔时代结束，Warsh接棒首场FOMC将至，华人配置面对真正的政策真空期",
-      "oneLineNoahAngle": "诺亚视角：领导人换届的真正风险不是降息节奏，而是规则可预期性——这正是高净值资产长期久期最怕的事。",
+      "id": "brief-001",
+      "title": "私募信贷出现首次净赎回:神话破灭还是周期检验?",
+      "oneLineNoahAngle": "诺亚视角:不是赛道塌了,是周期到了——真正的资管能力,只有在退潮时才看得清谁有底。",
       "score": 5,
-      "suitablePlatforms": ["YouTube", "LinkedIn", "视频号", "公众号"]
+      "suitablePlatforms": ["YouTube", "LinkedIn", "微信公众号", "视频号", "Quora"]
     },
     {
-      "id": "db-002",
-      "title": "Greg Abel三倍加仓Alphabet：传承之后的第一份成绩单，全球华人家族要看懂什么",
-      "oneLineNoahAngle": "诺亚视角：巴菲特把方向盘交给Abel后的第一个季度，告诉所有家族——传承不是复制偏好，是允许下一代用自己的判断去对话时代。",
+      "id": "brief-002",
+      "title": "香港首次超越瑞士:全球华人财富,回家了",
+      "oneLineNoahAngle": "诺亚视角:这不是地缘搬迁,是结构性回流——香港+新加坡的双中心,正在重写全球私人银行版图。",
       "score": 5,
-      "suitablePlatforms": ["YouTube", "视频号", "小红书", "公众号", "X"]
+      "suitablePlatforms": ["YouTube", "微信公众号", "小红书", "视频号", "X", "LinkedIn"]
     },
     {
-      "id": "db-003",
-      "title": "迪拜光环褪色，香港启动家办2.0，全球华人财富版图正在重画",
-      "oneLineNoahAngle": "诺亚视角：当迪拜的零税安全感被战火打折扣，香港用数字资产和私募信贷税务扩容回应——这是华人家办格局十年一遇的重新洗牌窗口。",
-      "score": 5,
-      "suitablePlatforms": ["YouTube", "小红书", "公众号", "LinkedIn", "X"]
+      "id": "brief-003",
+      "title": "鲍威尔卸任18天:下一任美联储主席,决定你的资产走向",
+      "oneLineNoahAngle": "诺亚视角:别赌主席是谁——赌的是你的组合能不能扛住任何一种货币立场。这才是资产配置的本质。",
+      "score": 4,
+      "suitablePlatforms": ["YouTube", "微信公众号", "LinkedIn", "X", "知乎"]
     }
   ],
   "news": {
     "macro": [
       {
-        "id": "m-001",
-        "title": "鲍威尔5月15日卸任美联储主席，Warsh接掌6月17日首场FOMC",
-        "source": "CNBC / Reuters",
-        "time": "2026-05-19T09:00:00+08:00",
-        "summary": "联储基金利率维持3.50-3.75%已超过半年，4月29日FOMC出现自1992年以来最多的四票反对。鲍威尔虽卸任主席但保留理事至2028年，新主席Kevin Warsh将主持6月17日议息会议，市场对降息25bp的预期反复摆动。",
-        "link": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        "id": "macro-001",
+        "title": "鲍威尔5月15日任期届满 新美联储主席悬而未决 6月议息为首次大考",
+        "source": "Federal Reserve / iShares 2026 Outlook",
+        "time": "2026-05-27T22:00:00+08:00",
+        "summary": "鲍威尔任期已于5月15日结束,新任主席尚未到位。市场普遍预期Fed将在新主席就任后启动1-2次降息,目标利率回到3.00-3.25%区间。但4月FOMC会议出现8-4分裂投票,为1992年10月以来最大分歧。",
+        "link": "https://www.ishares.com/us/insights/fed-outlook-2026-interest-rate-forecast"
       },
       {
-        "id": "m-002",
-        "title": "中东冲突推升能源价格，全球通胀路径生变",
-        "source": "Reuters / Bloomberg",
-        "time": "2026-05-19T08:30:00+08:00",
-        "summary": "美-以-伊朗冲突延续至5月，霍尔木兹海峡通行受阻，布油重新逼近高位。BIS与多国央行担忧能源溢价向核心通胀传导，原本的降息路径被迫重新评估，部分交易员已开始计入2027年加息可能。",
-        "link": "https://www.reuters.com/markets/"
+        "id": "macro-002",
+        "title": "IMF下调2026全球增长预期 中东冲突+霍尔木兹海峡关闭压制油价",
+        "source": "IMF Blog",
+        "time": "2026-05-26T20:00:00+08:00",
+        "summary": "IMF原本预期2026全球增长3.4%,中东战争+海峡封锁后正在系统性下调。能源价格飙升、供应链承压、欧亚央行降息空间被压缩。",
+        "link": "https://www.imf.org/en/blogs/articles/2026/04/14/war-darkens-global-economic-outlook-and-reshapes-policy-priorities"
       },
       {
-        "id": "m-003",
-        "title": "中国2026刺激基调克制：财政与货币双稳，重提AI+万亿赛道",
-        "source": "Xinhua / Bloomberg",
-        "time": "2026-05-19T11:00:00+08:00",
-        "summary": "中央经济工作会议定调2026灵活适度，财政赤字率维持4%，2500亿元特别国债用于消费品以旧换新。AI相关产业目标到十五五末超10万亿元，集成电路、低空经济、智能机器人被列为新支柱。",
-        "link": "https://english.www.gov.cn/news/202603/07/content_WS69ab67b3c6d00ca5f9a09ad5.html"
+        "id": "macro-003",
+        "title": "美国关税仍是全球企业最大政治风险 Willis调查:61%企业已遭实质损失",
+        "source": "Willis Political Risk Survey",
+        "time": "2026-05-12T18:00:00+08:00",
+        "summary": "尽管中东战火升级,61%受访企业认为关税影响最难管理。2026年2月美国最高法院推翻2025年部分关税法律基础,但新关税以替代权限推出,贸易体系持续重构。",
+        "link": "https://www.globenewswire.com/news-release/2026/05/12/3292523/0/en/Despite-Middle-East-tensions-tariffs-remain-top-political-risk-concern-according-to-latest-Willis-Political-Risk-Survey.html"
       },
       {
-        "id": "m-004",
-        "title": "欧央行已先美联储降息，欧美利差走阔牵动跨境资金",
-        "source": "Financial Times",
-        "time": "2026-05-19T07:45:00+08:00",
-        "summary": "ECB已完成多轮降息进入宽松周期，美联储仍按兵不动，欧美两年期国债利差走阔。美元指数承压但仍维持高位，欧元资产对部分华人家族重新具备配置吸引力。",
-        "link": "https://www.ft.com/markets"
+        "id": "macro-004",
+        "title": "美国4月CPI公布 通胀粘性犹存 联储观望姿态延续",
+        "source": "US Bureau of Labor Statistics",
+        "time": "2026-05-12T20:30:00+08:00",
+        "summary": "BLS于5月12日公布4月CPI数据。市场关注核心通胀是否能稳定回到2%目标。Fed已连续三次按兵不动,3.50-3.75%区间内分歧持续放大。",
+        "link": "https://www.bls.gov/news.release/pdf/cpi.pdf"
       },
       {
-        "id": "m-005",
-        "title": "央行黄金购买Q1净增244吨，金价1月历史高点后回调至4558美元",
-        "source": "World Gold Council / J.P. Morgan",
-        "time": "2026-05-19T10:15:00+08:00",
-        "summary": "黄金1月触及5595美元历史高位后回调约16%，今日报4558美元。Q1全球央行净买入244吨同比增3%，金条金币需求同比涨42%达474吨。摩根大通维持2026年底6300美元目标。",
-        "link": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q1-2026"
+        "id": "macro-005",
+        "title": "中国人民银行扩大外资行境外贷款上限 鼓励人民币跨境流出",
+        "source": "Caixin Global",
+        "time": "2026-04-15T23:54:00+08:00",
+        "summary": "央行放宽外资行和进出口银行境外贷款额度,人民币在中美利差走阔背景下,正成为低成本融资货币。这是2026年人民币国际化的重要节点。",
+        "link": "https://www.caixinglobal.com/2026-04-15/china-lifts-offshore-lending-caps-for-foreign-banks-to-boost-yuan-use-overseas-102434452.html"
       }
     ],
     "market": [
       {
-        "id": "mk-001",
-        "title": "【诺亚核心】Blackstone私募信贷BCRED规模达805亿美元，违约率仍在历史低位",
-        "source": "SEC Filing / Blackstone",
-        "time": "2026-05-19T09:30:00+08:00",
-        "summary": "BCRED 3月底资产规模805亿美元，97%为高级担保，平均LTV 41%，组合EBITDA同比增长11%，利息覆盖率2.2倍。Q1出现持续负面舆论与申购放缓，但通过Blackstone自有资本满足全部赎回，私募信贷的底层资产质量仍在分化。",
-        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001803498"
+        "id": "market-001",
+        "title": "【诺亚核心】私募信贷BDC首次出现净赎回 7-5=2亿美元资金流出",
+        "source": "Bloomberg",
+        "time": "2026-05-14T22:23:00+08:00",
+        "summary": "非交易所私募信贷基金一季度赎回70亿美元,募集50亿美元——历史首次出现资金净流出。这是私募信贷资产类别成立以来,在完整信用周期中的第一次大考。",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-14/private-credit-bdc-redemptions-exceed-fundraising-for-first-time"
       },
       {
-        "id": "mk-002",
-        "title": "【诺亚核心】OpenAI完成1220亿美元融资，估值8520亿——一级市场重写规则",
-        "source": "CNBC / TechCrunch / OpenAI",
-        "time": "2026-05-19T08:00:00+08:00",
-        "summary": "OpenAI 3月31日完成历史最大单轮私募融资1220亿美元（投后估值8520亿），Amazon、Nvidia、SoftBank、a16z、Sequoia、Temasek、Blackstone等参与。首次开放银行渠道向个人投资者募集30亿美元，并入选ARK Invest多个ETF。Anthropic同期2月以3800亿估值募30亿。",
-        "link": "https://openai.com/index/accelerating-the-next-phase-ai/"
+        "id": "market-002",
+        "title": "【诺亚核心】Varde Partners筹募10亿美元亚洲私募信贷基金 聚焦印度澳洲东南亚",
+        "source": "Bloomberg",
+        "time": "2026-05-21T10:01:00+08:00",
+        "summary": "Varde计划发行首支亚洲专属私募信贷基金,规模10亿美元。亚洲私募信贷正在成为全球资管巨头的下一个战场。",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-21/varde-partners-aims-to-raise-1-billion-asia-private-credit-fund"
       },
       {
-        "id": "mk-003",
-        "title": "Greg Abel首份13F：清仓16只股票，三倍加仓Alphabet进入前五大持仓",
-        "source": "The Motley Fool / 24/7 Wall St.",
-        "time": "2026-05-19T07:30:00+08:00",
-        "summary": "5月15日披露的Q1 13F显示，Greg Abel接任CEO后清空16只持仓，将Alphabet增持至前五大重仓股。伯克希尔Q1跑输标普500（标普涨7.75% vs BRK跌4%），现金储备3970亿美元，Abel公开表示不会为AI而做AI。",
-        "link": "https://www.cnbc.com/2026/05/02/warren-buffett-berkshire-hathaway-annual-meeting-2026-live-updates.html"
+        "id": "market-003",
+        "title": "Nvidia Q1 FY2027 营收816亿创纪录 但股价反跌 AI估值见顶讨论加剧",
+        "source": "Kiplinger / Motley Fool",
+        "time": "2026-05-20T20:00:00+08:00",
+        "summary": "Nvidia 5月20日公布财报,营收816亿超预期,EPS 1.87美元同比+120%。但股价反跌——市场已透支预期,估值已至2026年盈利30.5倍。AI资本支出周期是否见顶,成为最关键的市场分歧。",
+        "link": "https://intellectia.ai/blog/nvda-stock-earnings-analysis-may-2026"
       },
       {
-        "id": "mk-004",
-        "title": "【诺亚核心】香港家办2.0启动，2026税务扩容覆盖数字资产、私募信贷、放贷投资",
-        "source": "Deloitte / InvestHK / Bloomberg",
-        "time": "2026-05-19T11:30:00+08:00",
-        "summary": "香港单一家办数从2023年的2703家增至2025年底3384家（两年增25%），其中1095家管理规模超1亿美元。港府2026税务扩容将数字资产、私募信贷、放贷投资纳入免税范围。Family Office 2.0计划覆盖2026-2028。",
-        "link": "https://www.deloitte.com/cn/en/about/press-room/family-office-study.html"
+        "id": "market-004",
+        "title": "【诺亚核心】Ares一季度募资300亿美元创纪录 私募信贷向个人投资者下沉",
+        "source": "Simply Wall St",
+        "time": "2026-05-14T18:00:00+08:00",
+        "summary": "Ares Management一季度募集300亿美元,创历史纪录。私募信贷正从机构资金为主,转向高净值个人投资者通过半流动性工具加速进入——结构性变化已发生。",
+        "link": "https://simplywall.st/stocks/us/diversified-financials/nyse-ares/ares-management/news/ares-managements-record-fundraising-highlights-growing-tilt"
       },
       {
-        "id": "mk-005",
-        "title": "亚洲家办减美增亚：Deloitte调研显示首选主题是减少美国敞口、聚焦香港与中国",
-        "source": "Deloitte / SCMP",
-        "time": "2026-05-19T10:45:00+08:00",
-        "summary": "Deloitte对136家香港家办和服务机构调研显示，主要资产配置主题正在转向减少美国敞口、增加香港与亚太敞口，AI、医疗、科技与媒体是最受欢迎的板块主题。Bank of Singapore香港分行2025年财富规划业务收入同比近三倍。",
-        "link": "https://www.scmp.com/business/article/3338709/hong-kong-gains-favour-platform-wealth-planning-family-offices-2026-bank-ceo"
+        "id": "market-005",
+        "title": "【诺亚核心】美国一季度PE交易回暖 软件谨慎 资金转向AI硬件配套+专业服务",
+        "source": "Ropes & Gray",
+        "time": "2026-05-13T18:00:00+08:00",
+        "summary": "2026年Q1美国私募股权交易显著回暖,但软件领域估值因AI颠覆开始谨慎。资金正轮动至现金流可见、抗AI冲击的板块:专业服务、金融、建筑、AI部署配套(HALO资产)。",
+        "link": "https://www.ropesgray.com/en/insights/alerts/2026/05/us-pe-market-recap-may-2026"
       },
       {
-        "id": "mk-006",
-        "title": "日元在150-160区间剧烈波动，套息交易风险被BIS再次警示",
-        "source": "Bloomberg / BIS",
-        "time": "2026-05-19T08:15:00+08:00",
-        "summary": "日本通胀连续多月高于2%目标，但央行加息节奏极度谨慎。日元在150-160区间剧烈波动，跨境套息交易再次进入BIS警示视野。亚洲跨境资产配置的汇率对冲成本正在重新上行。",
-        "link": "https://www.bloomberg.com/markets/currencies"
+        "id": "market-006",
+        "title": "黄金2025全年涨44% 央行+家办+主权基金持续增配",
+        "source": "BCG Global Wealth Report 2026",
+        "time": "2026-05-27T15:00:00+08:00",
+        "summary": "BCG最新报告显示2025年黄金价格涨44%。在西方主权债务率攀升、通胀粘性背景下,财富管理机构正系统性提升黄金、高等级地产、私募信贷等实物/类实物资产的基础配置。",
+        "link": "https://www.unboxfuture.com/2026/05/2026-global-wealth-report-hong-kong.html"
       }
     ],
     "hnwi": [
       {
-        "id": "h-001",
-        "title": "迪拜光环遇战火考验：部分英国富豪重新评估海湾，瑞士、西班牙、葡萄牙成回流目的地",
-        "source": "CNBC / Henley & Partners",
-        "time": "2026-05-19T09:45:00+08:00",
-        "summary": "中东冲突让零税安全感出现裂缝。约24万英籍居民住在阿联酋，部分家庭因学校停课、航班中断、安全顾虑暂时返欧，向瑞士、西班牙、葡萄牙转移。Henley强调高净值人群的核心原则是全球可选择性。",
-        "link": "https://www.cnbc.com/2026/04/21/uk-uae-iran-war-dubai-expat-appeal-middle-east.html"
+        "id": "hnwi-001",
+        "title": "BCG报告:香港首次超越瑞士 成为全球最大跨境财富中心",
+        "source": "BCG Global Wealth Report 2026",
+        "time": "2026-05-27T15:00:00+08:00",
+        "summary": "BCG 2026全球财富报告显示,跨境财富管理已形成东方网络(香港+新加坡)与西方网络(瑞士+美国+英国)两极格局。香港预计2026年率先超越瑞士。2025年全球金融财富增长10.7%至333万亿美元。",
+        "link": "https://www.unboxfuture.com/2026/05/2026-global-wealth-report-hong-kong.html"
       },
       {
-        "id": "h-002",
-        "title": "英国非定居者制度2026实操：12%临时回汇税、4年FIG、资产重估三项过渡安排",
-        "source": "Titan Wealth / HMRC",
-        "time": "2026-05-19T10:00:00+08:00",
-        "summary": "2025年4月non-dom制度废除后，临时回汇制度TRF在2025/26与2026/27两个税年仍可适用12%平税；新到达者享4年FIG豁免；2017-2025期间适用汇款制的客户可对2019年4月5日所持境外资产做重估。这些是2026年华人客户回英或离英规划的关键操作窗口。",
-        "link": "https://titanwealthinternational.com/learn/moving-back-to-uk-from-dubai-tax/"
+        "id": "hnwi-002",
+        "title": "英国百万富翁外流2025年达1.65万人 历史最高 2026年或翻倍",
+        "source": "Henley Private Wealth Migration / Headway Wealth",
+        "time": "2026-05-22T18:00:00+08:00",
+        "summary": "Henley Partners报告:英国2025年净流出百万富翁1.65万人,创历史纪录,是中国同期的两倍以上。Non-dom制度终结+遗产税改革推动加速。deVere CEO预测2026外流可能翻倍。",
+        "link": "https://www.openpr.com/news/4524727/britain-s-wealth-exodus-drives-demand-for-cross-border"
       },
       {
-        "id": "h-003",
-        "title": "香港2026税务扩容将数字资产、私募信贷、放贷投资纳入家办免税",
-        "source": "Deloitte / IRD",
-        "time": "2026-05-19T11:15:00+08:00",
-        "summary": "FIHV家族投资控股工具原本对合资格投资免税，2026年扩容计划新增数字资产、私募信贷投资、放贷投资等类别。对配置数字资产、私募信贷的华人家族而言，这是过去三年最大的税务结构性利好。",
-        "link": "https://www.deloitte.com/cn/en/about/press-room/family-office-study.html"
+        "id": "hnwi-003",
+        "title": "香港单一家办年增25%至3,384家 1095家管理资产超1亿美元",
+        "source": "Bloomberg / Deloitte for HK Govt",
+        "time": "2026-02-10T20:00:00+08:00",
+        "summary": "德勤受港府委托调查显示,2025年底香港单一家办数量同比增长25%至3,384家。香港正式启动'家族办公室2.0'(2026-2028)计划。",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-10/hong-kong-family-offices-jump-to-3-384-in-wealth-hub-boost"
       },
       {
-        "id": "h-004",
-        "title": "新加坡MAS对华人家办申请审查趋严，部分中国客户转向香港或采取双中心",
-        "source": "Nikkei Asia / Caproasia",
-        "time": "2026-05-19T07:30:00+08:00",
-        "summary": "新加坡13O项目最低规模2000万新元，需投1000万新元或10%资产到本地市场，申请周期可超一年。2023-2024洗钱案后MAS审查更严，部分中国护照持有者申请被拒。多个家族开始采取香港做速度、新加坡做稳定的双中心配置。",
-        "link": "https://asia.nikkei.com/business/markets/wealth-management/singapore-loses-china-s-rich-to-hong-kong-in-family-office-rush"
+        "id": "hnwi-004",
+        "title": "Henley:2026全球富豪迁徙规模或达16.5万人 UAE仍居首 新加坡稳居前三",
+        "source": "Henley Private Wealth Migration Report",
+        "time": "2026-02-27T18:00:00+08:00",
+        "summary": "2025年全球12.8万百万富翁完成跨境迁徙创纪录,2026年预计上升至16.5万人。UAE吸引最多净流入(9800人),美国(7500人)、新加坡(1600人)分列其后。",
+        "link": "https://harveylawcorporation.com/millionaire-migration/"
       },
       {
-        "id": "h-005",
-        "title": "Greg Abel首份成绩单的传承启示：方向盘交出去之后，下一代该如何与时代对话",
-        "source": "CNBC / The Motley Fool",
-        "time": "2026-05-19T08:45:00+08:00",
-        "summary": "Greg Abel接棒CEO首季度，没有复制巴菲特远离科技的偏好，反而三倍加仓Alphabet。这对全球华人一代二代传承中的核心问题——是要复刻父辈，还是被允许长出自己的判断——给出了高度可见的样本。",
-        "link": "https://www.fool.com/investing/2026/05/18/warren-buffett-abel-pile-into-ai-titan-googl-brka/"
+        "id": "hnwi-005",
+        "title": "香港拟扩大家办税务优惠 黄金、加密、私募信贷、海外房产全部纳入豁免",
+        "source": "Ocorian",
+        "time": "2026-03-18T18:00:00+08:00",
+        "summary": "香港拟将家办税务豁免范围扩大至黄金、加密货币、私募信贷、海外房产等更广资产类别。立法预计2026年中提交。这是吸引内地及全球华人家办的关键政策动作。",
+        "link": "https://www.ocorian.com/knowledge-hub/insights/hong-kongs-family-office-moment-tax-modernisation-meets-geopolitical-risk"
       },
       {
-        "id": "h-006",
-        "title": "亚洲家办主流配置主题：私募信贷、AI一级市场、家族信托三件套",
-        "source": "Deloitte / UBS / Citywealth",
-        "time": "2026-05-19T11:45:00+08:00",
-        "summary": "UBS与Deloitte 2026调研显示，亚洲家办的三大优先主题：一是私募信贷取代部分高收益债敞口；二是通过ARK类工具、银行私募份额对接AI一级市场；三是以信托加控股工具完成第一代向第二代的治理过渡。",
-        "link": "https://www.citywealthmag.com/news/asias-wealth-shift-hong-kong-and-singapore-lead-the-next-chapter-in-family-offices/"
+        "id": "hnwi-006",
+        "title": "加密富豪数量同比增40%至24.17万人 94%在40岁以下",
+        "source": "Henley Crypto Wealth Report 2025 / Haute Living",
+        "time": "2026-04-20T18:00:00+08:00",
+        "summary": "全球加密百万富翁达24.17万人,同比增40%。其中Bitcoin百万富翁14.51万人(同比+70%),crypto centi-millionaire(资产超1亿美元)450人,crypto billionaires 36人。94%在40岁以下——华人家办二代正在涌入。",
+        "link": "https://hauteliving.com/2026/04/the-wealthiest-map-of-the-world-has-just-been-redrawn/787866/"
       }
     ]
   },
   "calendar": [
     {
-      "date": "2026-05-20",
-      "event": "FOMC 3月会议纪要发布",
-      "importance": 2,
-      "category": "fed",
-      "brief": "市场用来对比4月鲍威尔最后一份会议与6月Warsh首场之间的政策连续性。"
-    },
-    {
-      "date": "2026-05-21",
-      "event": "美国初请失业金加5月Markit PMI",
-      "importance": 2,
-      "category": "data",
-      "brief": "Warsh上任前最后一组关键劳动力与景气数据，将直接影响6月议息预期。"
-    },
-    {
-      "date": "2026-06-05",
-      "event": "美国5月非农就业报告",
-      "importance": 3,
-      "category": "data",
-      "brief": "6月FOMC前最重要的就业数据，决定降息预期方向。"
-    },
-    {
       "date": "2026-06-11",
-      "event": "美国5月CPI",
+      "event": "美国5月CPI数据公布",
       "importance": 3,
       "category": "data",
-      "brief": "中东能源溢价能否传导至核心通胀的关键数据，对联储6月SEP有决定性影响。"
+      "brief": "通胀粘性是否破解,直接决定下一任Fed主席降息节奏"
     },
     {
-      "date": "2026-06-12",
-      "event": "ECB 6月议息会议",
-      "importance": 2,
-      "category": "central_bank",
-      "brief": "欧央行降息节奏是否快于美联储，对美元欧元交叉汇率与华人欧资产配置直接相关。"
-    },
-    {
-      "date": "2026-06-15",
-      "event": "中国5月经济数据（工业增加值、社零、固投）",
-      "importance": 2,
-      "category": "data",
-      "brief": "判断中国AI+与消费刺激实际落地节奏的关键窗口。"
+      "date": "2026-06-16",
+      "event": "FOMC 6月议息会议(第一天) 含SEP经济预测和点阵图",
+      "importance": 3,
+      "category": "fed",
+      "brief": "鲍威尔卸任后首次议息,新主席政策立场首秀,含点阵图,市场最关注节点"
     },
     {
       "date": "2026-06-17",
-      "event": "FOMC 6月议息（Warsh主持首场，含SEP点阵图）",
+      "event": "FOMC 6月议息决议公布 含SEP和点阵图",
       "importance": 3,
       "category": "fed",
-      "brief": "新主席首场议息加经济预测加点阵图，年度最重要的政策事件之一。"
+      "brief": "宣布利率决议,新闻发布会;市场将解读新主席降息路径"
     },
     {
-      "date": "2026-06-18",
-      "event": "日本央行6月议息",
-      "importance": 2,
-      "category": "central_bank",
-      "brief": "在日元剧烈波动背景下，BOJ加息节奏是套息交易与亚太资金面的关键变量。"
-    },
-    {
-      "date": "2026-06-26",
-      "event": "美国5月核心PCE物价指数",
-      "importance": 2,
+      "date": "2026-06-19",
+      "event": "美国Juneteenth假日 市场休市",
+      "importance": 1,
       "category": "data",
-      "brief": "联储最看重的通胀指标，验证6月议息逻辑。"
+      "brief": "周五,美股美债休市"
+    },
+    {
+      "date": "2026-07-10",
+      "event": "美国6月CPI数据公布",
+      "importance": 3,
+      "category": "data",
+      "brief": "决定7月FOMC是否启动降息"
     },
     {
       "date": "2026-07-15",
-      "event": "美国Q2财报季启动（大行先行）",
+      "event": "Q2财报季启动 摩根大通、富国、花旗领头",
       "importance": 2,
       "category": "earnings",
-      "brief": "AI资本开支、私募信贷敞口、高净值业务条线是观察重点。"
+      "brief": "大型银行率先发布Q2业绩,反映美国经济实际状态"
     },
     {
-      "date": "2026-07-31",
-      "event": "日本央行7月议息",
-      "importance": 2,
-      "category": "central_bank",
-      "brief": "日元政策路径年度关键节点。"
+      "date": "2026-07-28",
+      "event": "FOMC 7月议息会议(第一天)",
+      "importance": 3,
+      "category": "fed",
+      "brief": "新主席第二次议息会,降息预期定价的关键"
     },
     {
-      "date": "2026-08-21",
-      "event": "Jackson Hole全球央行年会",
+      "date": "2026-07-29",
+      "event": "FOMC 7月议息决议公布",
+      "importance": 3,
+      "category": "fed",
+      "brief": "是否启动2026年首次降息的核心节点"
+    },
+    {
+      "date": "2026-08-12",
+      "event": "美国7月CPI数据公布",
+      "importance": 3,
+      "category": "data",
+      "brief": "Jackson Hole召开前最后一次CPI,Fed政策风向标"
+    },
+    {
+      "date": "2026-08-27",
+      "event": "Jackson Hole经济政策研讨会开幕(8/27-29)",
       "importance": 3,
       "category": "conference",
-      "brief": "Warsh首次以美联储主席身份发表政策主旨演讲，全年最重要央行论坛。"
+      "brief": "主题:'金融创新:对支付与政策的影响';新主席首次Jackson Hole讲话,全球央行年度风向标"
+    },
+    {
+      "date": "2026-08-29",
+      "event": "Jackson Hole闭幕 全球央行年度政策框架定调",
+      "importance": 3,
+      "category": "conference",
+      "brief": "新主席主旨演讲若提及降息路径,将引发全球资产价格重定价"
+    },
+    {
+      "date": "2026-08-31",
+      "event": "美国海外金融账户FBAR申报截止(延期版本)",
+      "importance": 2,
+      "category": "tax",
+      "brief": "跨境华人客户的关键合规节点;海外金融账户超1万美元须申报"
     }
   ],
   "topics": [
     {
-      "id": "t-001",
-      "title": "鲍威尔走了，规则会跟着走吗？华人家族真正要担心的事",
-      "source": "Federal Reserve / Reuters / CNBC",
-      "background": "鲍威尔5月15日卸任美联储主席，Warsh接掌6月17日首场FOMC。利率维持3.50-3.75%超半年，4月29日出现1992年以来最多的四票反对，市场对降息节奏预期反复摆动。",
-      "noahAngle": "诺亚视角：央行换届的真正风险不是降息25bp与否，而是规则可预期性。对全球华人家族而言，美元资产久期重定价大于短期利率方向。这正是诺亚财富管理团队在做的事——帮客户穿越政策真空期，而不是赌方向。",
+      "id": "topic-001",
+      "title": "私募信贷第一次大考:神话还是周期?",
+      "source": "Bloomberg 5/14:BDC首次出现净赎回 + Ropes & Gray:Q1私募信贷压力上升 + Ares Q1募资300亿创纪录",
+      "background": "私募信贷资产类别从2020年起经历了五年高歌猛进。2026年5月,Bloomberg首次报道非交易所私募信贷基金出现资金净赎回(赎回70亿、募集50亿)。这是这个资产类别成立以来第一次在完整信用周期中接受检验。同时,行业头部Ares单季度仍募集300亿美元创纪录——分化已经开始。",
+      "noahAngle": "诺亚视角(ARK资管):不是赛道塌了,是周期到了。任何一个资产类别都要经历完整信用周期才算成年。诺亚做了十多年的另类资产研究,我们的判断是——退潮时,真正能交付收益的管理人不超过头部前30%。这恰恰是诺亚最不可替代的价值:不是把所有产品都摆上货架,是替客户做筛选,把不该买的挡在门外。",
       "priority": "red",
-      "quote_zh": "降息25bp，不会改变你的命运；规则变了，才会。",
-      "quote_en": "A 25-basis-point cut won't change your destiny. A change in the rules will.",
+      "quote_zh": "牛市跑出来的不叫管理人,叫风口。熊市跑出来的,才叫资管能力。",
+      "quote_en": "Bull markets reveal who got lucky. Bear markets reveal who actually knows how to allocate.",
       "platformHints": {
-        "wechat": "围绕鲍威尔时代结束做深度解读，落到诺亚财富管理团队帮客户穿越政策真空的框架。建议2500字深度长文加一张时间轴信息图。",
-        "xiaohongshu": "用人物对比卡片：鲍威尔 vs Warsh个人风格、政策倾向、市场预期。落点是高净值家族该看什么不该赌什么。",
-        "videoChannel": "1分20秒短视频，开场抓人：鲍威尔走了，但你的美元资产还在原地。结尾打诺亚财富管理品牌。",
-        "x": "Powell era is over. Warsh chairs his first FOMC on June 17. For Global Chinese families, the real risk isn't whether the Fed cuts—it's whether the rulebook stays stable. Thread 1/n.",
-        "linkedin": "Long-form post (~600 words) on policy predictability as the underrated risk factor for cross-border wealth allocation. Position Noah as the partner that prices in regime uncertainty, not just yield.",
-        "zhihu": "回答类长文：鲍威尔卸任对中国高净值人群意味着什么。重点写美元资产久期、汇率对冲成本、私募信贷分母效应。",
-        "youtube": "8-10分钟主持人口播加图表，结构：1)换届事实 2)4位反对票背后的真正分歧 3)华人家族实操指南。CTA：诺亚CIO观察。",
-        "reddit": "Discussion-style post in r/wallstreetbets or r/investing: Powell exits, Warsh takes over—what changes for global Chinese investors? Avoid promo tone.",
-        "quora": "Answer: What happens to USD assets when a Fed Chair changes? Use Noah's cross-border lens as the differentiator."
+        "wechat": "深度长文+图表:回顾私募信贷十年发展史+本次净赎回的真正含义+诺亚十年来在该赛道的选品逻辑。不点名任何竞品,但用'头部30%'这种数据立标杆。",
+        "xiaohongshu": "高净值姐姐视角:'最近问我家办收益的客户多了,我都说一句话——别看年化,看周期。'配私募信贷历史回报曲线图。",
+        "videoChannel": "陈昆才CIO观察:3分钟讲清'BDC净赎回意味着什么',结尾落到诺亚的筛选标准。",
+        "x": "EN: For the first time since inception, private credit BDCs saw net outflows last quarter. This isn't a collapse — it's the asset class growing up. The real question: who survives the full cycle?",
+        "linkedin": "EN long-form: 'Private Credit's First Real Test'. Frame Noah's 10+ years of due diligence as the difference between marketplace and curator. Position ARK Asset Management as the curator for global Chinese HNWIs.",
+        "zhihu": "回答'私募信贷还能买吗?'——结构性观点:不是问能不能买,是问跟谁买。给出诺亚四个筛选维度。",
+        "youtube": "8-10分钟深度解读:Hook(BDC首次净赎回的数据)+ 历史回顾(私募信贷十年崛起)+ 周期判断(为什么现在是大考)+ 诺亚立场(头部30%才是真资管)+ CTA(预约诺亚顾问)",
+        "reddit": "r/FinancialIndependence: 'Private Credit BDC redemptions exceeded fundraising for the first time. What this actually means for HNW allocators (not retail).'",
+        "quora": "Answer 'Is private credit still a good investment in 2026?': lead with the BDC data, frame the 'curator vs marketplace' thesis, position Noah's 20-year track record."
       }
     },
     {
-      "id": "t-002",
-      "title": "巴菲特把方向盘交给Abel之后，他做的第一件事是什么",
-      "source": "CNBC / The Motley Fool / Berkshire 13F",
-      "background": "5月15日披露的Q1 13F显示，Greg Abel接任CEO后清空16只持仓，三倍加仓Alphabet使其进入前五大重仓。伯克希尔Q1跑输标普500（标普涨7.75%，BRK跌4%），现金储备3970亿美元。Abel公开表态不会为AI而做AI。",
-      "noahAngle": "诺亚视角：这是全球家族传承最高分贝的一次公开课。巴菲特没有要求Abel复刻远离科技的偏好，Abel也没有为了表忠诚做被动管理。这恰恰是诺亚Glory传承业务在做的事——不是把上一代的偏好封装给下一代，是把判断力和治理结构一起交出去。",
+      "id": "topic-002",
+      "title": "香港超越瑞士:华人财富,正式回家",
+      "source": "BCG Global Wealth Report 2026(5/27)+ Bloomberg:香港单一家办年增25%至3,384家 + 港府家办2.0计划",
+      "background": "BCG 2026年5月最新报告:香港跨境财富管理资产将首次超越瑞士,成为全球最大跨境财富中心。新加坡录得1.8万亿美元跨境财富。香港单一家办年增25%达3,384家,其中1,095家管理资产超1亿美元。香港正式启动'家族办公室2.0'(2026-2028),拟将家办税务优惠扩大至黄金、加密、私募信贷、海外房产。",
+      "noahAngle": "诺亚视角(品牌+Olive家办):这不是地缘搬迁,是结构性回流。瑞士统治全球私行近百年,靠的是中立、稳定、银行保密。今天,这些价值的承载已经东移——而且不是迁移到一个城市,是双中心(香港+新加坡)的双引擎。全球华人财富的家,正在被重新定义。诺亚2005年在上海陆家嘴起步,2014年走向香港,今天在9个国家服务全球华人——我们站在这股回流的最前线。",
       "priority": "red",
-      "quote_zh": "真正的传承，不是让下一代复读你；是允许他用自己的判断去对话时代。",
-      "quote_en": "True legacy isn't replication. It's giving the next generation the freedom—and the framework—to converse with their own era.",
+      "quote_zh": "瑞士守了一百年的财富,正在被全球华人取回家。",
+      "quote_en": "After a century in Zurich, the money is coming home.",
       "platformHints": {
-        "wechat": "深度文章：巴菲特交班100天，全球华人家族要看懂什么。用Abel买Alphabet切入，落到诺亚Glory传承加家族治理。",
-        "xiaohongshu": "卡片体：交班这件事，巴菲特做对了哪3件事。每张卡一个点，第3张落到诺亚Glory。",
-        "videoChannel": "1分30秒口播，钩子：巴菲特把方向盘交给Abel的第99天，他干了一件事——把Alphabet买进了前五大重仓。",
-        "x": "Buffett retires. Abel's first 13F: dumps 16 stocks, triples Alphabet stake. The most public masterclass on succession in 2026: don't replicate, hand over judgment. Thread.",
-        "linkedin": "Position this as a case study for HNW Chinese families: succession is governance, not replication. Tie to Noah Glory legacy services and cross-generational family office structures.",
-        "zhihu": "回答类：巴菲特卸任CEO后伯克希尔的变化对家族企业传承有何启示。重点写治理结构、决策权移交、二代独立判断。",
-        "youtube": "10分钟人物深度：Greg Abel的第一份成绩单。结构：1)13F细节 2)Abel vs Buffett风格对比 3)华人家族传承的三条路径。",
-        "reddit": "Post in r/Berkshire or r/investing: Abel just tripled Berkshire's Alphabet stake. What does that say about post-Buffett strategy? Neutral, analytical tone.",
-        "quora": "Answer: How is Berkshire Hathaway changing under Greg Abel? Use the lens of family business succession, not stock picking."
+        "wechat": "长文+数据图:1)BCG报告核心数据 2)香港 vs 瑞士百年对比 3)双中心(港+新)的协同 4)诺亚的双booking center布局。情绪饱满,有历史感。",
+        "xiaohongshu": "海外华人视角:'我爸说他朋友圈所有在瑞士开账户的,这两年都在往香港新加坡转。今天看到BCG报告才知道,这是个全球性的事。'",
+        "videoChannel": "品牌片:1分钟,克雷莫纳琴头+陆家嘴黄浦江+维多利亚港+滨海湾。文案:'1644年,克雷莫纳。2005年,陆家嘴。今天,香港超越瑞士。全球华人财富,终于回家。'",
+        "x": "EN: Bloomberg + BCG just confirmed it: Hong Kong is set to overtake Switzerland as the world's largest cross-border wealth center in 2026. The geography of global wealth is being redrawn — and it's coming home to Asia.",
+        "linkedin": "EN: 'The Great Reordering of Global Wealth'. Position the Eastern Hub (HK+SG) as a structural — not cyclical — shift. Frame Noah as the bridge between this new center and the global Chinese diaspora.",
+        "zhihu": "回答'2026年瑞士还是私行首选吗?'——结构性观点,引BCG数据,给出双中心配置框架。",
+        "youtube": "封面:维多利亚港+瑞士阿尔卑斯山+对比箭头。脚本5分钟。Hook:'瑞士统治了全球财富100年,今年终于被超越——超越者是华人都熟悉的城市。'",
+        "reddit": "r/HENRYfinance: 'BCG 2026 Wealth Report: HK overtakes Switzerland. What this means for cross-border Chinese HNWIs.' Lead with data, end with question.",
+        "quora": "Answer 'Why are wealthy Chinese moving money from Switzerland to Hong Kong?': structural drivers (tax, succession, geography), Noah perspective on the structural shift."
       }
     },
     {
-      "id": "t-003",
-      "title": "迪拜光环褪色之夜：香港家办2.0开了一扇门",
-      "source": "CNBC / Deloitte / InvestHK / Henley",
-      "background": "中东冲突让迪拜的零税安全感出现裂缝，部分英国富豪重新评估海湾敞口。同期香港单一家办数2025末达3384家（两年增25%），港府启动Family Office 2.0（2026-2028），2026税务扩容将数字资产、私募信贷、放贷投资纳入FIHV免税范围。",
-      "noahAngle": "诺亚视角：当地缘风险给零税洼地打折扣，制度可预期、法律根基、亚太腹地的组合就重新显现价值。香港的牌没有变多，是迪拜的牌少了一张。诺亚Olive家办业务在香港、新加坡、迪拜三地都有团队——客户真正需要的不是哪一个城市，是全球可选择性本身。",
-      "priority": "red",
-      "quote_zh": "零税从来不是终点，可预期才是。",
-      "quote_en": "Zero tax was never the destination. Predictability is.",
-      "platformHints": {
-        "wechat": "深度文章：迪拜、香港、新加坡——华人家办版图正在重画。用今年中东冲突切入，落到诺亚Olive家办的多中心服务。",
-        "xiaohongshu": "高净值生活方式角度：2026最现实的财富搬家路线图。卡片体，第5张回落到诺亚。",
-        "videoChannel": "1分30秒口播：迪拜还安全吗？香港要换打法了。开场画面是导弹拦截加中环天际线对比。",
-        "x": "Dubai's zero-tax halo is being repriced by Middle East conflict. Hong Kong's Family Office 2.0 (2026-2028) just expanded tax-exempt scope to digital assets and private credit. The Chinese wealth map is being redrawn. Thread.",
-        "linkedin": "Position piece for cross-border advisors: the new center of gravity isn't a city, it's an option set. Hong Kong + Singapore + Dubai as a portfolio, not a choice.",
-        "zhihu": "回答：2026年中国高净值人群应该把家办设在迪拜还是香港、新加坡。用诺亚三地团队视角，避免说哪个最好，说哪个适合什么类型客户。",
-        "youtube": "12分钟深度：三个城市的拐点。访谈式或讲解式，对比三地税务、合规、政治、生活四个维度。",
-        "reddit": "Post in r/expats or r/PersonalFinanceHK: Dubai's tax appeal is fading—HK and SG are recompeting for Chinese wealth. Anyone seeing this on the ground?",
-        "quora": "Answer: Is Dubai still the best place for a family office in 2026? Nuanced answer comparing HK, SG, Dubai across multiple criteria."
-      }
-    },
-    {
-      "id": "t-004",
-      "title": "OpenAI 8520亿、Anthropic 3800亿——华人家族还能不能上一级市场的车",
-      "source": "OpenAI / CNBC / TechCrunch",
-      "background": "OpenAI 3月31日完成1220亿融资，估值8520亿；Anthropic 2月以3800亿估值募30亿。OpenAI首次通过银行渠道向个人投资者募集30亿，并入选ARK Invest多个ETF。Q1全球AI相关融资占整体VC的81%。",
-      "noahAngle": "诺亚视角：一级市场的门槛不是有没有钱，是有没有结构。直接买股不再是唯一答案——经过持牌机构对接S份额、共投、专项基金、ETF底层，才是诺亚ARK资管在做的事。私募和公募的边界正在被AI重画，普通客户也能上车，但要先有专业引航。",
+      "id": "topic-003",
+      "title": "鲍威尔走了之后:你的组合扛得住任何主席吗?",
+      "source": "Federal Reserve(鲍威尔5/15任期届满)+ 6/16-17 FOMC首次新主席议息 + iShares 2026 Outlook",
+      "background": "鲍威尔已于2026年5月15日任期届满,新任美联储主席尚未确定。市场基本共识:新主席就任后1-2次降息,目标利率回到3.00-3.25%。但4月FOMC出现8-4分裂投票——为1992年10月以来最大分歧,意味着委员会内部对降息节奏严重分裂。6月16-17日FOMC将是新主席首次议息+点阵图首秀。",
+      "noahAngle": "诺亚视角(CIO观察):大多数人都在猜主席是谁、是不是鸽派。诺亚的立场不同——你的组合,不应该赌任何一个人。真正的资产配置,是无论是鹰派还是鸽派上来,组合都能扛。这才是CIO视角和散户视角的本质区别——后者押注,前者做组合。诺亚CIO办公室十多年的工作,就是让客户的组合,跨越任何一任主席。",
       "priority": "yellow",
-      "quote_zh": "上车AI的门槛不是钱，是结构。",
-      "quote_en": "The barrier to AI isn't capital. It's structure.",
+      "quote_zh": "别猜主席是谁。问问自己,你的组合能不能扛任何一种货币立场。",
+      "quote_en": "Don't bet on who the next Chair is. Ask if your portfolio can survive any of them.",
       "platformHints": {
-        "wechat": "深度文章：8520亿美元，OpenAI重写了一级市场的规则。落到诺亚ARK资管的私募与一级市场对接能力。",
-        "xiaohongshu": "卡片体：想买OpenAI股票？5种方式对比。最后一张落到专业财富管家帮你筛。",
-        "videoChannel": "1分20秒短视频：OpenAI估值8520亿，你能上车吗？开场用估值对比图。",
-        "x": "OpenAI: $852B. Anthropic: $380B. AI capital is rewriting the boundary between private and public markets. For Chinese HNW families, the question isn't can I get in—it's through what structure. Thread.",
-        "linkedin": "Thought leadership on the institutionalization of private AI access for HNW Chinese: from direct shares to S-shares, co-investment, fund of funds, and listed vehicles. Position Noah ARK as the infrastructure.",
-        "zhihu": "回答：普通人和高净值人群有哪些渠道可以投资OpenAI、Anthropic。列5种渠道加各自门槛加合规要点。",
-        "youtube": "10分钟：AI一级市场的5个上车通道。结构：1)直接股权 2)S份额 3)专项基金 4)ARK等公募ETF 5)持牌机构对接。",
-        "reddit": "Post in r/investing: How are accredited investors actually accessing OpenAI/Anthropic equity in 2026? Educational, not promotional.",
-        "quora": "Answer: How can retail or HNW investors invest in OpenAI before IPO? Structured comparison of access vehicles, with caveats."
+        "wechat": "CIO视角:'鲍威尔之后,我们关心什么?'——不点名候选人,讲'扛得住任何立场的组合'是怎么构建的。给出四类资产应对框架。",
+        "xiaohongshu": "理财师真人出镜:'客户问我新主席会是谁——我说这个问题答错了。应该问的是…' 30秒短视频,引发评论。",
+        "videoChannel": "陈昆才CIO办公室洞察:5分钟。Hook:'1992年以来,联储委员会从没像现在这样分裂。'落到诺亚配置框架。",
+        "x": "EN: Powell's term ended May 15. New Chair TBA. The April FOMC saw the biggest internal dissent since Oct 1992. The market is asking 'who's next?' — the better question is 'is your portfolio prepared for any of them?'",
+        "linkedin": "EN: 'Beyond the Fed Chair Guessing Game'. Frame Noah CIO's allocation framework that's chair-agnostic. Position as the difference between speculation and strategy.",
+        "zhihu": "回答'2026年下半年降息几次?'——不给具体次数,给出'四象限组合应对法'。",
+        "youtube": "8分钟深度:Hook(鲍威尔卸任18天,主席未定)+ 4月FOMC分裂数据 + 历史回顾(1992以来最大分歧)+ 诺亚CIO配置框架 + CTA",
+        "reddit": "r/investing: 'Powell is gone, no Chair announced, FOMC 8-4 split. What's the smart allocation move?' — provide structural framework, not predictions.",
+        "quora": "Answer 'What happens if the Fed Chair changes?': frame Noah's chair-agnostic allocation thesis."
       }
     },
     {
-      "id": "t-005",
-      "title": "黄金从5595跌到4558，央行还在买，华人家族要不要补仓",
-      "source": "World Gold Council / J.P. Morgan / LiteFinance",
-      "background": "黄金1月触及5595美元历史高位后回调约16%，今日报4558美元。Q1全球央行净买入244吨同比涨3%，金条金币需求同比涨42%达474吨。摩根大通、Wells Fargo、UBS对2026年底目标价分布在5900-6300美元。",
-      "noahAngle": "诺亚视角：黄金这一波回调不是趋势反转，是从恐慌追涨切到结构性配置的换手。对华人家族而言，黄金从来不是收益率游戏，是抗规则风险的保险层。诺亚CIO的观点很明确——黄金的仓位比金价更重要。",
+      "id": "topic-004",
+      "title": "英国16,500个百万富翁出走 中产以下的家庭怎么办",
+      "source": "Henley Private Wealth Migration / Headway Wealth(5/22)+ deVere CEO预测2026翻倍",
+      "background": "英国2025年净流出百万富翁1.65万人,创历史纪录,是中国同期的两倍以上。Non-dom制度终结(2025年4月生效)+ 遗产税扩大至非英国资产是主因。deVere CEO预测2026外流可能翻倍。UAE、新加坡、瑞士、葡萄牙、希腊是主要目的地。同时英国伦敦Q1 2025顶级豪宅成交跌13%。",
+      "noahAngle": "诺亚视角(Glory传承保险+Olive家办):英国的故事不只是富豪出走,是一个百年税务避风港的终结。它告诉每个跨境华人家庭一件事——你以为'移过去就稳了'的国家,可能突然就不稳了。诺亚做身份和传承规划这么多年,核心就一句话:别把鸡蛋放在任何一个国家的篮子里,包括身份。多重合规、多地booking、保险作为传承底层——这是诺亚Glory和Olive在做的事。",
       "priority": "yellow",
-      "quote_zh": "黄金的仓位，比金价更重要。",
-      "quote_en": "What matters isn't the gold price. It's your allocation.",
+      "quote_zh": "你以为最安全的国家,可能下一个就改规则。",
+      "quote_en": "The country you thought was safest may be the next to change the rules.",
       "platformHints": {
-        "wechat": "数据驱动文章：5595跌到4558，黄金回调16%，央行还在买。用图表加诺亚CIO观点收尾。",
-        "xiaohongshu": "卡片体：2026年金价的3个真相。第3张落到诺亚CIO怎么看。",
-        "videoChannel": "1分30秒讲解：金价跌了16%还要不要补仓？看央行就够了。用央行Q1净买入244吨数据冲击力开场。",
-        "x": "Gold: from $5,595 (Jan) to $4,558 (today). Central banks bought a net 244 tonnes in Q1, up 3% YoY. Bar/coin demand +42%. The correction isn't a reversal—it's a handoff from FOMO to structural allocation. Thread.",
-        "linkedin": "Position piece on gold as insurance layer in HNW portfolios, decoupled from price-chasing. Tie to Noah CIO's framework on regime-risk hedging.",
-        "zhihu": "回答：2026年黄金还能不能涨？是否应该补仓？避免给具体目标价，重点写配置逻辑。",
-        "youtube": "10分钟CIO观察：金价回调16%，但故事没有结束。央行行为、ETF流向、华人买金习惯三视角。",
-        "reddit": "Post in r/Gold or r/investing: Gold pulled back 16% from January highs. Central banks net bought 244 tonnes in Q1. What's the actual signal here?",
-        "quora": "Answer: Is gold still a good buy after the 2026 pullback? Frame as allocation, not timing."
+        "wechat": "长文:1)英国Non-dom制度百年史 2)2025拐点 3)1.65万人去哪了 4)对华人家庭的启示——多元身份+多地配置。",
+        "xiaohongshu": "海外华人妈妈视角:'闺蜜全家移去英国十年了,今年开始研究第二身份。她说一句话戳我了——「我以为终点站了,没想到只是中转。」'",
+        "videoChannel": "1分20秒《一周看世界》:伦敦+迪拜+新加坡画面切换。文案聚焦'移民不是终点,是过程'。",
+        "x": "EN: UK lost 16,500 millionaires in 2025 — a record. 2026 could double. Non-dom was a 200-year fixture. Lesson for global Chinese HNWIs: no jurisdiction is permanent.",
+        "linkedin": "EN: 'When Safe Havens Change the Rules'. UK case study, structural framework for multi-jurisdictional planning. Position Noah's global capability.",
+        "zhihu": "回答'英国移民现在还值得吗?'——结构性答案+给出'多元身份+多地booking'框架。",
+        "youtube": "7分钟:Hook(1.65万人,历史纪录)+ Non-dom百年简史 + 2025转折 + 启示(华人家庭的配置原则)+ CTA",
+        "reddit": "r/expats: 'UK Non-dom abolition: real data, real impact, and what this teaches global HNWIs about jurisdiction risk.'",
+        "quora": "Answer 'Why are millionaires leaving the UK in 2026?': data first, then structural lesson on jurisdiction diversification."
+      }
+    },
+    {
+      "id": "topic-005",
+      "title": "AI不是终点 是新的不平等的起点",
+      "source": "Nvidia Q1 FY2027财报(5/20)+ Ropes & Gray PE报告:软件谨慎、HALO资产受捧 + McKinsey:AI相关贸易2025年增长近40%",
+      "background": "Nvidia 5月20日发布财报:营收816亿美元,EPS同比+120%,但股价反跌——AI龙头的极致估值开始遇到分歧。Ropes & Gray 5月报告指出,PE资金正轮动:软件因AI颠覆估值开始谨慎,资金转向'HALO资产'(AI部署的配套产业:电力、冷却、数据中心REITs、专业服务)。McKinsey数据:2025年AI相关贸易增长接近40%(全球贸易平均6.5%)。",
+      "noahAngle": "诺亚视角(财富管理+ARK资管):AI不是会让所有人赚钱的革命,它会创造历史上最不均衡的财富分布。能持续在AI胜出的家庭,有两个共同点——一是早,二是分散。诺亚的判断:今天买Nvidia不算早,但买AI生态的二阶资产(电力、冷却、数据中心、二级市场)还在合理窗口。一级市场的AI龙头,通过诺亚I ARK等专业通道才能触达——这是普通投资者没有的入场券。",
+      "priority": "green",
+      "quote_zh": "AI不会让所有人变富——它会让贫富差距,创造历史新高。",
+      "quote_en": "AI won't make everyone rich. It will create the widest wealth gap in modern history.",
+      "platformHints": {
+        "wechat": "深度文:1)Nvidia财报矛盾——超预期但跌 2)资金轮动逻辑:从一阶到二阶 3)HALO资产是什么 4)一级市场触达的门槛与价值。",
+        "xiaohongshu": "财富姐视角:'好朋友家小孩从美国回来,说她那一届同学家长里50%在做AI公司股权。这就是普通家庭再努力都追不上的差距。'",
+        "videoChannel": "短视频2分钟:'AI的钱,不在你以为的地方'——讲二阶资产+一级市场的角度。",
+        "x": "EN: Nvidia beat earnings by $3B and the stock fell. The market has priced in perfection. The real AI alpha now lives in 2nd-order assets: power, cooling, data center REITs, and primary-market access.",
+        "linkedin": "EN: 'The AI Wealth Gap: Why First-Order Trades Are Over'. Frame the rotation thesis. Position Noah's I ARK primary-market access as a structural advantage for global Chinese HNWIs.",
+        "zhihu": "回答'Nvidia还能买吗?'——给框架而非个股建议:一阶 vs 二阶 vs 一级市场。",
+        "youtube": "10分钟深度:Hook(Nvidia盈利+120%但股价跌)+ 数据(McKinsey AI贸易+40%)+ 分层框架(一阶/二阶/一级)+ 诺亚的入场券价值 + CTA",
+        "reddit": "r/wallstreetbets crosspost to r/investing: 'Nvidia earnings paradox: why beating by $3B isn't enough anymore. The AI trade is rotating.'",
+        "quora": "Answer 'Is Nvidia still a buy in 2026?': not a stock pick — a framework on where AI alpha now lives."
       }
     }
   ],
   "summary": {
-    "firstChoicePlatform": "YouTube加视频号双发首选——本周三条红色优先选题（鲍威尔、Abel传承、家办版图）都是视频天然适配的人物故事题材，文字稿不如画面有说服力。",
-    "aiPriorityTopicId": "t-004",
-    "viralPotentialTopicId": "t-002"
+    "firstChoicePlatform": "YouTube — 本周三大核心议题(私募信贷大考、香港超越瑞士、鲍威尔卸任)都是深度结构性话题,YouTube长视频是诺亚最能建立CIO权威的阵地;微信公众号+视频号紧随其后做国内华人触达。",
+    "aiPriorityTopicId": "topic-001",
+    "viralPotentialTopicId": "topic-002"
   }
 }
